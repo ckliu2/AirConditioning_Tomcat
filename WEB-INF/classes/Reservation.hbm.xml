@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<!--
+	** Course	
+    --> 	
+	<class name="tncc.reserve.value.Course"  table="RESERVE_Course"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+             <generator class="assigned"/>
+        </id> 
+       <property name="name"  column="name"  type="string"   length="50"  not-null="true"/> 		 
+	</class>
+	
+    <!--
+	** Classroom	
+    --> 	
+	<class name="tncc.reserve.value.ClassRoom"  table="RESERVE_ClassRoom"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+             <generator class="assigned"/>
+        </id> 
+       <property name="name"  column="name"  type="string"   length="50"  not-null="true"/> 
+       <property name="classroom" type="string"   length="50" /> 
+       <property name="classroomGroup"   type="string"   length="10" />		 
+	   <set name="readers"    table="RESERVE_ClassRoomReaders" cascade="save-update" lazy="false">              
+            <key column="classroomId"/> 
+            <many-to-many class="tncc.power.value.Reader"  column="readerId" />            
+       </set> 
+	</class>
+	
+	
+	<!--
+	** CourseOpen	
+    --> 	
+	<class name="tncc.reserve.value.CourseOpen"  table="RESERVE_CourseOpen"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+        <many-to-one name="course"   class="tncc.reserve.value.Course" />
+        <many-to-one name="teacher"   class="com.common.value.Member" />
+	    <many-to-one name="classroom"   class="tncc.reserve.value.ClassRoom" />
+	    <property name="week"   type="integer"  /> 
+	    <property name="startTime"  type="string" />  
+	    <property name="endTime"  type="string" /> 
+	    <property name="active"   type="string"  />   
+	    <property name="node"   type="integer"  />   
+	    <property name="reservation"   type="string"  />
+	   
+	</class>
+	
+	
+</hibernate-mapping>

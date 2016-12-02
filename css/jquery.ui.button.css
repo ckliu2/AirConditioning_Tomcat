@@ -1,0 +1,102 @@
+.ui-button {
+	padding: 0px; text-align: center; line-height: normal; overflow: visible; margin-right: 0.1em; vertical-align: middle; display: inline-block; position: relative; cursor: pointer;
+}
+.ui-button {
+	text-decoration: none;
+}
+.ui-button:link {
+	text-decoration: none;
+}
+.ui-button:visited {
+	text-decoration: none;
+}
+.ui-button:hover {
+	text-decoration: none;
+}
+.ui-button:active {
+	text-decoration: none;
+}
+.ui-button-icon-only {
+	width: 2.2em;
+}
+button.ui-button-icon-only {
+	width: 2.4em;
+}
+.ui-button-icons-only {
+	width: 3.4em;
+}
+button.ui-button-icons-only {
+	width: 3.7em;
+}
+.ui-button .ui-button-text {
+	line-height: normal; display: block;
+}
+.ui-button-text-only .ui-button-text {
+	padding: 0.4em 1em;
+}
+.ui-button-icon-only .ui-button-text {
+	padding: 0.4em; text-indent: -9999999px;
+}
+.ui-button-icons-only .ui-button-text {
+	padding: 0.4em; text-indent: -9999999px;
+}
+.ui-button-text-icon-primary .ui-button-text {
+	padding: 0.4em 1em 0.4em 2.1em;
+}
+.ui-button-text-icons .ui-button-text {
+	padding: 0.4em 1em 0.4em 2.1em;
+}
+.ui-button-text-icon-secondary .ui-button-text {
+	padding: 0.4em 2.1em 0.4em 1em;
+}
+.ui-button-text-icons .ui-button-text {
+	padding: 0.4em 2.1em 0.4em 1em;
+}
+.ui-button-text-icons .ui-button-text {
+	padding-right: 2.1em; padding-left: 2.1em;
+}
+input.ui-button {
+	padding: 0.4em 1em;
+}
+.ui-button-icon-only .ui-icon {
+	top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-button-text-icon-primary .ui-icon {
+	top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-button-text-icon-secondary .ui-icon {
+	top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-button-text-icons .ui-icon {
+	top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-button-icons-only .ui-icon {
+	top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-button-icon-only .ui-icon {
+	left: 50%; margin-left: -8px;
+}
+.ui-button-text-icon-primary .ui-button-icon-primary {
+	left: 0.5em;
+}
+.ui-button-text-icons .ui-button-icon-primary {
+	left: 0.5em;
+}
+.ui-button-icons-only .ui-button-icon-primary {
+	left: 0.5em;
+}
+.ui-button-text-icon-secondary .ui-button-icon-secondary {
+	right: 0.5em;
+}
+.ui-button-text-icons .ui-button-icon-secondary {
+	right: 0.5em;
+}
+.ui-button-icons-only .ui-button-icon-secondary {
+	right: 0.5em;
+}
+.ui-buttonset {
+	margin-right: 7px;
+}
+.ui-buttonset .ui-button {
+	margin-right: -0.3em; margin-left: 0px;
+}

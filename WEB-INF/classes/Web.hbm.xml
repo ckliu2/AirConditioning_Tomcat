@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+
+    <class name="tnu.ucase.value.Page" table="Case_Page">    
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+        <property name="place"  			type="string" length="200" 	not-null="true" /> 
+        <property name="findDay" 			type="date" 		column="findDay"/> 
+        <property name="memo"  			type="string" length="2000" 	not-null="true" />
+        <many-to-one name="photo"		class="com.base.value.UploadedFile"	column="photo"	cascade="all" />
+        <many-to-one name="caseType" class="com.base.value.AppProperty"   /> 
+        <many-to-one name="location" class="com.base.value.AppProperty"   /> 
+        <many-to-one name="member"		class="com.common.value.Member"	column="member"/>
+    </class>
+
+
+
+
+</hibernate-mapping>

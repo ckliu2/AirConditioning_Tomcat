@@ -1,0 +1,1 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %><%@ taglib uri="/webwork" prefix="ww" %><ww:set name="ls" value="%{modbusfunctest()}"/><c:out value="${ls}" escapeXml="false"/>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+    <definition name="default" path="/layout/template.jsp">
+        <put name="title" value="Information System"/>
+        <put name="menu" value="/layout/menu.jsp"/>
+        <put name="rightColumn" value="/layout/right.jsp"/>
+    </definition>    
+
+    <definition name="surveyOnlineTemplate" path="/layout/templateOnline.jsp">
+        <put name="title" value="Information System"/>
+        <put name="foot" value="/layout/foot.jsp"/>
+    </definition>
+
+    <definition name="noMenuTemplate" path="/layout/noMenuTemplate.jsp">
+        <put name="title" value="Information System"/>
+    </definition>
+    
+    
+
+    <definition name="searchResultTemplate" path="/layout/searchResultTemplate.jsp">
+        <put name="title" value="Information System"/>
+    </definition>
+
+    <definition name="dataAccessFailure" extends="default">
+        <put name="title" value="Data Access Error"/>
+        <put name="content" value="/common/dataAccessFailure.jsp"/>
+    </definition>
+
+    <definition name="blank" extends="default">
+        <put name="title" value=""/>
+        <put name="content" value="/common/blank.jsp"/>
+    </definition>
+
+    <definition name="editTimeExceed" extends="default">
+        <put name="title" value=""/>
+        <put name="content" value="/common/editTimeExceed.jsp"/>
+    </definition>
+  
+
+    <!-- 
+    ************************ 
+    * AppProperty 
+    ************************
+    -->
+    <definition name="appPropertyList" extends="default">
+        <put name="content" value="/adm/appPropertyList.jsp"/>
+    </definition>
+    <definition name="appPropertyForm" extends="default">
+        <put name="content" value="/adm/appPropertyForm.jsp"/>
+    </definition>
+ 
+     <!-- 
+    ************************ 
+    * MiscCode 
+    ************************
+    -->
+    <definition name="miscCodeList" extends="default">
+        <put name="content" value="/adm/miscCodeList.jsp"/>
+    </definition>
+    <definition name="miscCodeForm" extends="default">
+        <put name="content" value="/adm/miscCodeForm.jsp"/>
+    </definition>
+ 
+     <!-- 
+    ************************ 
+    * Function 
+    ************************
+    -->
+    <definition name="functionList" extends="default">
+        <put name="content" value="/adm/functionList.jsp"/>
+    </definition>
+
+    <definition name="functionForm" extends="default">
+        <put name="content" value="/adm/functionForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * FunctionCategory 
+    ************************
+    -->
+    <definition name="functionCategoryList" extends="default">
+        <put name="content" value="/adm/functionCategoryList.jsp"/>
+    </definition>
+
+    <definition name="functionCategoryForm" extends="default">
+        <put name="content" value="/adm/functionCategoryForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * Group 
+    ************************
+    -->
+    <definition name="groupList" extends="default">
+        <put name="content" value="/adm/groupList.jsp"/>
+    </definition>
+
+    <definition name="groupForm" extends="default">
+        <put name="content" value="/adm/groupForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * WebSite 
+    ************************
+    -->
+    <definition name="webSiteList" extends="default">
+        <put name="content" value="/adm/webSiteList.jsp"/>
+    </definition>
+
+    <definition name="webSiteForm" extends="default">
+        <put name="content" value="/adm/webSiteForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * Member 
+    ************************
+    -->
+    <definition name="memberList" extends="default">
+        <put name="content" value="/adm/memberList.jsp"/>
+    </definition>
+
+    <definition name="memberForm" extends="default">
+        <put name="content" value="/adm/memberForm.jsp"/>
+    </definition>
+    
+    <definition name="queryMember" extends="default">
+        <put name="content" value="/adm/queryMember.jsp"/>
+    </definition>
+    
+     <definition name="onlineMember" extends="noMenuTemplate">
+        <put name="content" value="/online/onlineMember.jsp"/>
+     </definition>
+     
+    <definition name="memberIndex" extends="noMenuTemplate">
+        <put name="content" value="/online/memberIndex.jsp"/>
+     </definition>
+     
+    <definition name="memberRegister" extends="noMenuTemplate">
+        <put name="content" value="/online/memberRegister.jsp"/>
+    </definition>
+    
+    <definition name="queryMemberListTop" extends="noMenuTemplate">
+        <put name="content" value="/adm/queryMemberListTop.jsp"/>
+    </definition>    
+
+
+    <definition name="memberFormInfo" extends="noMenuTemplate">
+        <put name="content" value="/adm/memberFormInfo.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * 交易記錄 
+    ************************
+    -->
+    <definition name="recorderList" extends="default">
+        <put name="content" value="/rfid/recorderList.jsp"/>
+    </definition>
+
+    <definition name="recorderForm" extends="noMenuTemplate">
+        <put name="content" value="/rfid/recorderForm.jsp"/>
+    </definition>
+    
+    <definition name="recorderListByMember" extends="noMenuTemplate">
+        <put name="content" value="/rfid/recorderListByMember.jsp"/>
+    </definition>
+    
+    
+    <definition name="recorderListQuery" extends="noMenuTemplate">
+        <put name="content" value="/rfid/recorderListQuery.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * 驗鈔機接收記錄 
+    ************************
+    -->
+    <definition name="machineList" extends="noMenuTemplate">
+        <put name="content" value="/rfid/machineList.jsp"/>
+    </definition>
+
+    <definition name="machineForm" extends="noMenuTemplate">
+        <put name="content" value="/rfid/machineForm.jsp"/>
+    </definition>
+    
+    
+    <!-- 
+    ************************ 
+    * 掛失 
+    ************************
+    -->
+    <definition name="missCard" extends="noMenuTemplate">
+        <put name="content" value="/rfid/missCard.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * 交易記錄 
+    ************************
+    -->
+    <definition name="recorderCheck" extends="default">
+        <put name="content" value="/rfid/recorderCheck.jsp"/>
+    </definition>
+    
+    
+    <!-- ********************************************* -->
+
+    <!-- 
+    ************************ 
+    * Room 
+    ************************
+    -->
+    <definition name="roomList" extends="default">
+        <put name="content" value="/wpc/roomList.jsp"/>
+    </definition>
+
+    <definition name="roomForm" extends="default">
+        <put name="content" value="/wpc/roomForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * Sensor 
+    ************************
+    -->
+    <definition name="sensorList" extends="default">
+        <put name="content" value="/wpc/sensorList.jsp"/>
+    </definition>
+
+    <definition name="sensorForm" extends="default">
+        <put name="content" value="/wpc/sensorForm.jsp"/>
+    </definition>
+    
+    <definition name="sensorView" extends="default">
+        <put name="content" value="/wpc/sensorView.jsp"/>
+    </definition>    
+
+    <!-- 
+    ************************ 
+    * Building 
+    ************************
+    -->
+    <definition name="buildingList" extends="default">
+        <put name="content" value="/wpc/buildingList.jsp"/>
+    </definition>
+
+    <definition name="buildingForm" extends="default">
+        <put name="content" value="/wpc/buildingForm.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * Controller 
+    ************************
+    -->
+    <definition name="controllerList" extends="default">
+        <put name="content" value="/wpc/controllerList.jsp"/>
+    </definition>
+
+    <definition name="controllerForm" extends="default">
+        <put name="content" value="/wpc/controllerForm.jsp"/>
+    </definition>
+
+
+    <!-- 
+    ************************ 
+    * Sensorstatus 
+    ************************
+    -->
+    <definition name="sensorstatusList" extends="default">
+        <put name="content" value="/wpc/sensorstatusList.jsp"/>
+    </definition>
+    
+    
+   <definition name="sensorstatusForm" extends="noMenuTemplate">
+        <put name="content" value="/wpc/sensorstatusForm.jsp"/>
+    </definition>
+    
+    <definition name="sensorstatusShow" extends="noMenuTemplate">
+        <put name="content" value="/wpc/sensorstatusShow.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * EvenLevel 
+    ************************
+    -->
+    <definition name="evenLevelList" extends="default">
+        <put name="content" value="/wpc/evenLevelList.jsp"/>
+    </definition>
+
+    <definition name="evenLevelForm" extends="default">
+        <put name="content" value="/wpc/evenLevelForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * DeviceProperty 
+    ************************
+    -->
+    <definition name="devicePropertyList" extends="default">
+        <put name="content" value="/wpc/devicePropertyList.jsp"/>
+    </definition>
+
+    <definition name="devicePropertyForm" extends="default">
+        <put name="content" value="/wpc/devicePropertyForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * Rule 
+    ************************
+    -->
+    <definition name="ruleList" extends="default">
+        <put name="content" value="/wpc/ruleList.jsp"/>
+    </definition>
+
+    <definition name="ruleForm" extends="default">
+        <put name="content" value="/wpc/ruleForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * Times 
+    ************************
+    -->
+    <definition name="timesList" extends="default">
+        <put name="content" value="/wpc/timesList.jsp"/>
+    </definition>
+
+    <definition name="timesForm" extends="default">
+        <put name="content" value="/wpc/timesForm.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * Messenger 
+    ************************
+    -->
+    <definition name="messengerList" extends="default">
+        <put name="content" value="/wpc/messengerList.jsp"/>
+    </definition>
+
+    <definition name="messengerForm" extends="default">
+        <put name="content" value="/wpc/messengerForm.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * Security 
+    ************************
+    -->
+    <definition name="securityList" extends="default">
+        <put name="content" value="/wpc/securityList.jsp"/>
+    </definition>
+
+    <definition name="securityForm" extends="default">
+        <put name="content" value="/wpc/securityForm.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * MyDVR 
+    ************************
+    -->
+    <definition name="myDVRList" extends="default">
+        <put name="content" value="/wpc/myDVRList.jsp"/>
+    </definition>
+
+    <definition name="myDVRForm" extends="default">
+        <put name="content" value="/wpc/myDVRForm.jsp"/>
+    </definition>
+    
+    
+    <!-- 
+    ************************ 
+    * Monitor 
+    ************************
+    -->
+    <definition name="monitorByBuilding" extends="noMenuTemplate">
+        <put name="content" value="/wpc/monitorByBuilding.jsp"/>
+    </definition> 
+    
+    <definition name="monitorByMap" extends="noMenuTemplate">
+        <put name="content" value="/wpc/monitorByMap.jsp"/>
+    </definition> 
+   
+   <!-- *********************power************************ -->
+
+    <!-- 
+    ************************ 
+    * Space 
+    ************************
+    -->
+    <definition name="spaceList" extends="default">
+        <put name="content" value="/power/spaceList.jsp"/>
+    </definition>
+
+    <definition name="spaceForm" extends="default">
+        <put name="content" value="/power/spaceForm.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * Reader 
+    ************************
+    -->
+    <definition name="readerList" extends="default">
+        <put name="content" value="/power/readerList.jsp"/>
+    </definition>
+
+    <definition name="readerForm" extends="default">
+        <put name="content" value="/power/readerForm.jsp"/>
+    </definition>
+    
+    <definition name="readerForm1" extends="noMenuTemplate">
+        <put name="content" value="/power/readerForm1.jsp"/>
+    </definition>
+
+    <!-- 
+    ************************ 
+    * PowerController 
+    ************************
+    -->
+    <definition name="powerControllerList" extends="default">
+        <put name="content" value="/power/powerControllerList.jsp"/>
+    </definition>
+
+    <definition name="powerControllerForm" extends="default">
+        <put name="content" value="/power/powerControllerForm.jsp"/>
+    </definition>
+    
+    
+    <!-- 
+    ************************ 
+    * BasicInfo 
+    ************************
+    -->
+    <definition name="basicInfoList" extends="default">
+        <put name="content" value="/power/basicInfoList.jsp"/>
+    </definition>
+
+    <definition name="basicInfoForm" extends="default">
+        <put name="content" value="/power/basicInfoForm.jsp"/>
+    </definition>
+    
+    <!-- 
+    ************************ 
+    * Shutdown 
+    ************************
+    -->
+    <definition name="shutdownList" extends="default">
+        <put name="content" value="/power/shutdownList.jsp"/>
+    </definition>
+
+    <definition name="shutdownForm" extends="default">
+        <put name="content" value="/power/shutdownForm.jsp"/>
+    </definition>
+    
+    <definition name="powerStatusList" extends="noMenuTemplate">
+        <put name="content" value="/power/powerStatusList.jsp"/>
+    </definition>
+    
+    <definition name="powerStatusList1" extends="noMenuTemplate">
+        <put name="content" value="/power/powerStatusList1.jsp"/>
+    </definition>
+    
+   <!-- 
+    ************************ 
+    * EvenLog 
+    ************************
+    -->
+    <definition name="evenLogList" extends="default">
+        <put name="content" value="/power/evenLogList.jsp"/>
+    </definition>
+    
+    
+    <!-- 
+    ************************ 
+    * ClassInfo 
+    ************************
+    -->
+    <definition name="classInfoList" extends="default">
+        <put name="content" value="/reserve/classInfoList.jsp"/>
+    </definition>
+    
+    
+    <!-- 
+    ************************ 
+    * ClassTime 
+    ************************
+    -->
+    <definition name="classTimeList" extends="default">
+        <put name="content" value="/reserve/classTimeList.jsp"/>
+    </definition>
+    
+    
+    
+    <!-- 
+    ************************ 
+    * QuartzRec 
+    ************************
+    -->
+    <definition name="quartzRecList" extends="default">
+        <put name="content" value="/reserve/quartzRecList.jsp"/>
+    </definition>
+
+    <definition name="quartzRecForm" extends="noMenuTemplate">
+        <put name="content" value="/reserve/quartzRecForm.jsp"/>
+    </definition>    
+    
+    <definition name="reserveClassList" extends="noMenuTemplate">
+        <put name="content" value="/reserve/reserveClassList.jsp"/>
+    </definition>
+    
+    
+    <!-- 
+    ************************ 
+    * Log  
+    ************************
+    -->
+    <definition name="logList" extends="default">
+        <put name="content" value="/power/logList.jsp"/>
+    </definition>
+    
+    
+    
+
+    
+</tiles-definitions>

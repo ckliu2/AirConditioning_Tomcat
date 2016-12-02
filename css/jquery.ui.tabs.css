@@ -1,0 +1,33 @@
+.ui-tabs {
+	padding: 0.2em; position: relative;
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0px; padding: 0.2em 0.2em 0px;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none; margin: 1px 0.2em 0px 0px; padding: 0px; top: 0px; border-bottom-width: 0px; float: left; white-space: nowrap; position: relative;
+}
+.ui-tabs .ui-tabs-nav li a {
+	padding: 0.5em 1em; text-decoration: none; float: left;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 1px; margin-bottom: -1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li a {
+	cursor: pointer;
+}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	background: none; border-width: 0px; padding: 1em 1.4em; display: block;
+}

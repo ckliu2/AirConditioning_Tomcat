@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<powerstatus>
+  <door id="315">
+    <classroom>IB303</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%933F</powercontroller>
+    <powercontrollerIP>140.118.18.229</powercontrollerIP>
+    <readerId>1</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015++4%3A16PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>25.3</inlettemp>
+    <time>2015-08-09 17:04:53</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="316">
+    <classroom>IB304</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%933F</powercontroller>
+    <powercontrollerIP>140.118.18.229</powercontrollerIP>
+    <readerId>2</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>28.5</inlettemp>
+    <time>2015-08-09 17:04:54</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="317">
+    <classroom>IB305</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%933F</powercontroller>
+    <powercontrollerIP>140.118.18.229</powercontrollerIP>
+    <readerId>3</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>25.0</settemp>
+    <inlettemp>28.8</inlettemp>
+    <time>2015-08-09 17:04:54</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="318">
+    <classroom>IB306</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%933F</powercontroller>
+    <powercontrollerIP>140.118.18.229</powercontrollerIP>
+    <readerId>4</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>26.0</settemp>
+    <inlettemp>28.5</inlettemp>
+    <time>2015-08-09 17:04:54</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="319">
+    <classroom>IB307</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%933F</powercontroller>
+    <powercontrollerIP>140.118.18.229</powercontrollerIP>
+    <readerId>5</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>27.7</inlettemp>
+    <time>2015-08-09 17:04:54</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="320">
+    <classroom>IB308</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%933F</powercontroller>
+    <powercontrollerIP>140.118.18.229</powercontrollerIP>
+    <readerId>6</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>27.9</inlettemp>
+    <time>2015-08-09 17:04:55</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="321">
+    <classroom>IB4011</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>1</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>27.1</inlettemp>
+    <time>2015-08-09 17:05:26</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="322">
+    <classroom>IB4012</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>2</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>27.1</inlettemp>
+    <time>2015-08-09 17:05:26</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="323">
+    <classroom>IB4013</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>3</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>27.2</inlettemp>
+    <time>2015-08-09 17:05:26</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="324">
+    <classroom>IB408</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>4</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>24.3</inlettemp>
+    <time>2015-08-09 17:05:27</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="325">
+    <classroom>IB4091</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>5</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>25.0</settemp>
+    <inlettemp>26.0</inlettemp>
+    <time>2015-08-09 17:05:27</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="326">
+    <classroom>IB4092</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>6</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>25.3</inlettemp>
+    <time>2015-08-09 17:05:27</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="327">
+    <classroom>IB4101</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>7</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>26.0</inlettemp>
+    <time>2015-08-09 17:05:27</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="328">
+    <classroom>IB4102</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>8</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>24.7</inlettemp>
+    <time>2015-08-09 17:05:28</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="329">
+    <classroom>IB411</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%934F</powercontroller>
+    <powercontrollerIP>140.118.23.248</powercontrollerIP>
+    <readerId>9</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>28.0</inlettemp>
+    <time>2015-08-09 17:05:28</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="330">
+    <classroom>IB501</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>1</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+10%3A20AM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>25.4</inlettemp>
+    <time>2015-08-09 17:05:58</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="331">
+    <classroom>IB502</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>2</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>27.5</settemp>
+    <inlettemp>25.3</inlettemp>
+    <time>2015-08-09 17:05:58</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="332">
+    <classroom>IB5021</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>3</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+10%3A43AM%7D</information>
+    <settemp>25.0</settemp>
+    <inlettemp>25.7</inlettemp>
+    <time>2015-08-09 17:05:58</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="333">
+    <classroom>IB503</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>4</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>29.0</settemp>
+    <inlettemp>26.4</inlettemp>
+    <time>2015-08-09 17:05:58</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="334">
+    <classroom>IB5031</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>5</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>29.0</settemp>
+    <inlettemp>26.6</inlettemp>
+    <time>2015-08-09 17:05:58</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="335">
+    <classroom>IB509</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>6</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>26.9</inlettemp>
+    <time>2015-08-09 17:05:59</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="336">
+    <classroom>IB5101</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>7</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>25.0</settemp>
+    <inlettemp>26.9</inlettemp>
+    <time>2015-08-09 17:05:59</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="337">
+    <classroom>IB5102</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>8</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>25.8</inlettemp>
+    <time>2015-08-09 17:05:59</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="338">
+    <classroom>IB5111</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>9</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>25.8</inlettemp>
+    <time>2015-08-09 17:05:59</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="339">
+    <classroom>IB5112</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>10</readerId>
+    <status>ON</status>
+    <state>#FF9966</state>
+    <information>%E8%AA%AA%E6%98%8E%3A%3Cbr%3E%E6%89%8B%E5%8B%95%E6%8E%92%E7%A8%8B%E9%96%8B%E5%95%9F%2F%E9%97%9C%E9%96%89%EF%BC%9A%7B08++9+2015+12%3A20PM%7D</information>
+    <settemp>24.0</settemp>
+    <inlettemp>26.1</inlettemp>
+    <time>2015-08-09 17:06:00</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="340">
+    <classroom>IB512</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%935F</powercontroller>
+    <powercontrollerIP>140.118.23.249</powercontrollerIP>
+    <readerId>11</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>25.0</settemp>
+    <inlettemp>27.9</inlettemp>
+    <time>2015-08-09 17:06:00</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="341">
+    <classroom>IB6011</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>1</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>26.5</settemp>
+    <inlettemp>28.3</inlettemp>
+    <time>2015-08-09 17:06:30</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="342">
+    <classroom>IB6012</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>2</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>28.2</inlettemp>
+    <time>2015-08-09 17:06:30</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="343">
+    <classroom>IB6021</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>3</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>25.0</settemp>
+    <inlettemp>27.9</inlettemp>
+    <time>2015-08-09 17:06:30</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="344">
+    <classroom>IB6022</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>4</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>25.5</settemp>
+    <inlettemp>28.2</inlettemp>
+    <time>2015-08-09 17:06:30</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="345">
+    <classroom>IB607</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>5</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>26.5</settemp>
+    <inlettemp>27.5</inlettemp>
+    <time>2015-08-09 17:06:31</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="346">
+    <classroom>IB608</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>6</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>28.6</inlettemp>
+    <time>2015-08-09 17:06:31</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="347">
+    <classroom>IB609</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>7</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>28.7</inlettemp>
+    <time>2015-08-09 17:06:31</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="348">
+    <classroom>IB610</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>8</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>25.0</settemp>
+    <inlettemp>27.0</inlettemp>
+    <time>2015-08-09 17:06:31</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="349">
+    <classroom>IB611</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>9</readerId>
+    <status>OFF</status>
+    <state>#F5F5F5</state>
+    <information>%E7%84%A1%E8%AA%B2%E8%A1%A8%2F%E9%97%9C%E9%96%89</information>
+    <settemp>24.0</settemp>
+    <inlettemp>25.3</inlettemp>
+    <time>2015-08-09 17:06:32</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+  <door id="350">
+    <classroom>IB612</classroom>
+    <powercontroller>%E5%9C%8B%E9%9A%9B%E5%A4%A7%E6%A8%936F</powercontroller>
+    <powercontrollerIP>140.118.23.250</powercontrollerIP>
+    <readerId>10</readerId>
+    <status>ON</status>
+    <state>#CC0000</state>
+    <information>%E7%95%B0%E5%B8%B8%E9%96%8B%E5%95%9F</information>
+    <settemp>24.5</settemp>
+    <inlettemp>24.1</inlettemp>
+    <time>2015-08-09 17:06:32</time>
+    <lock>%E8%A7%A3%E9%99%A4</lock>
+    <lockId>0</lockId>
+  </door>
+</powerstatus>
+

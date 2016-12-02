@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<!--
+	** Space	
+    --> 	
+	<class name="tncc.power.value.Space"  table="POWER_Space"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>  
+        <property name="name"  column="name"  type="string"   length="30" not-null="true"/> 		 
+		<many-to-one name="readerType"  class="com.base.value.AppProperty" />
+        <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+        <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>
+        <many-to-one name="building"   column="building"   class="tncc.wpc.value.Building" not-null="true"/>                
+        <list name="reader" cascade="none" lazy="false" table="POWER_SpaceReader" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="spaceId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="tncc.power.value.Reader" column="readerId" /> 
+ 		</list> 
+	</class> 
+	
+	<!--
+	** PowerController	
+    --> 	
+	<class name="tncc.power.value.PowerController"  table="POWER_PowerController"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="name"  column="name"  type="string"   length="30" />  
+		<property name="ip"  column="ip"  type="string"   length="30" /> 
+		<property name="port" type="integer" not-null="true"/>
+		<property name="deviceId" type="integer" not-null="true"/>
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+        <many-to-one name="building"   column="building"   class="tncc.wpc.value.Building" not-null="true"/> 
+        <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>	   		   			
+        <many-to-one name="deviceType"  class="com.base.value.AppProperty" lazy="false"/>
+        <property name="active" type="boolean" />
+        <list name="reader" cascade="none" table="POWER_PowerControllerReader" lazy="false">
+        	<meta attribute="widget">none</meta>
+        	<key column="powerControllerId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="tncc.power.value.Reader" column="readerId" /> 
+ 		</list>  
+	</class>
+	
+	<!--
+	** Reader	 
+    --> 	
+	<class name="tncc.power.value.Reader"  table="POWER_Reader" > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="name"  column="name"  type="string"   length="30" not-null="true"/>  		 
+		<property name="seqName"    type="string"   length="30" not-null="true"/> 	
+		<property name="readerId" type="integer" not-null="true"/>
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" />
+	    
+	    <many-to-one name="drive"  class="com.base.value.AppProperty" lazy="false"/>
+	    <many-to-one name="mode"  class="com.base.value.AppProperty" lazy="false"/>
+	    <many-to-one name="fanSpeed"  class="com.base.value.AppProperty" lazy="false"/>
+	    <property name="temp" type="integer" />
+	    <many-to-one name="driveItem"  class="com.base.value.AppProperty" lazy="false"/>
+	    <many-to-one name="modeItem"  class="com.base.value.AppProperty" lazy="false"/>
+	    <many-to-one name="tempItem"  class="com.base.value.AppProperty" lazy="false"/>
+	    <many-to-one name="filterItem"  class="com.base.value.AppProperty" lazy="false"/>
+	    <many-to-one name="lock"  class="com.base.value.AppProperty" lazy="false"/>
+	    <property name="pass" type="boolean" />
+	    <property name="active" type="boolean" />
+	    <property name="sync" type="boolean" />
+	    <property name="clearDaily" type="boolean" />
+	    <property name="powerstatus" type="boolean" />
+	    <property name="information"  type="text"/>  		 
+	    <many-to-one name="state"  class="com.base.value.AppProperty" lazy="false"/>
+	  	<property name="lastModifiedDate"  	type="timestamp" update="false"/>
+	    <set name="scheduleDailys"   table="POWER_ScheduleDailyReader"  cascade="save-update">               
+             <key column="readerId"/> 
+             <many-to-many class="tncc.power.value.ScheduleDaily"   column="scheduleDailyId"/> 
+        </set> 
+	</class>
+	
+	
+	<!--
+	** SpaceReader	 
+    --> 	
+	<class name="tncc.power.value.SpaceReader"  table="POWER_SpaceReader_View"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="assigned"/>
+        </id>  
+        <many-to-one name="space"   column="space"   class="tncc.power.value.Space" />
+		<many-to-one name="reader"   column="reader"   class="tncc.power.value.Reader" />
+		<property name="name"  column="name"  type="string"  />  
+		<property name="seqName"  column="seqName"  type="string"  />  
+		<many-to-one name="powercontroller"   column="powercontroller"   class="tncc.power.value.PowerController" />
+		<many-to-one name="state"  class="com.base.value.AppProperty" lazy="false" />
+        
+				 
+	</class>
+	
+	
+	
+	
+	<class name="tncc.power.value.PowerControllerReader"  table="POWER_PowerControllerReader_View"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" length="60" unsaved-value="null">
+            <generator class="assigned"/>
+        </id>    
+		<many-to-one name="powerController"   class="tncc.power.value.PowerController" lazy="false"/>
+	    <many-to-one name="reader"  class="tncc.power.value.Reader" lazy="false"/>
+		<property name="name"    type="string"   />
+		<property name="deviceNo" type="integer"/>		
+		<many-to-one name="classRoom"   class="tncc.reserve.value.ClassRoom" lazy="false"/>
+	    <many-to-one name="course"   class="tncc.reserve.value.Course" lazy="false"/>
+	</class>
+	
+	
+	
+	
+	<!--
+	** BasicInfo	
+   	 --> 
+	<class name="tncc.power.value.BasicInfo"  table="POWER_BASICINFO"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>  
+        <property name="year"   type="integer" not-null="true" />
+        <property name="sem"   type="integer" not-null="true" />  
+        <property name="onMinutes"   type="integer" not-null="true" />  
+        <property name="offMinutes"   type="integer" not-null="true" />   
+        <property name="scheduleStart" type="date" not-null="true"/>
+        <property name="scheduleEnd" type="date" not-null="true"/>
+        <property name="threshold"   type="integer" not-null="true" />            
+		<property name="contract"  column="contract"  type="integer" />  
+		
+		<property name="timingEveryMins"   type="integer" not-null="true" />  
+		<property name="weeklyEveryMins"   type="integer" not-null="true" />
+		<property name="panelUpdateMins"   type="integer" />  
+		<property name="scheduleCheckMins"   type="integer" />
+		<property name="templimit"   type="integer" not-null="true"/>
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>
+	    
+	    <property name="flag"   type="integer" not-null="true" update="false" />
+
+        <property name="shutdownTime"   type="string"  />         
+        <property name="initializeTime"   type="string"  /> 
+        
+        <list name="shutdownReaders" cascade="none" table="POWER_ShutdownReaderDaily" lazy="false">
+        	<meta attribute="widget">none</meta>
+        	<key column="basicInfoId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="tncc.power.value.Reader" column="readerId" /> 
+ 		</list> 
+		
+         
+	</class>
+	
+	
+	<!--
+	** Shutdown	
+    --> 	
+	<class name="tncc.power.value.Shutdown"  table="POWER_Shutdown"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="name"  column="name"  type="string"   length="30" not-null="true"/>  	
+		<property name="perc" type="integer" not-null="true"/>
+		<property name="gap" type="integer" not-null="true"/>		
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+        <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>	   		   			
+        <many-to-one name="evenlevel"     class="tncc.wpc.value.EvenLevel" not-null="true" lazy="false"/>	   		   			
+        
+        <list name="reader" cascade="none" table="POWER_ShutdownReader" lazy="false">
+        	<meta attribute="widget">none</meta>
+        	<key column="shutdownId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="tncc.power.value.Reader" column="readerId" /> 
+ 		</list>  
+	</class>
+	
+	
+	<!--
+	** EvenLog	
+    --> 	
+	<class name="tncc.power.value.EvenLog"  table="POWER_EvenLog"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+        <property name="perc" type="float" not-null="true"/>
+        <property name="kw" type="float" not-null="true"/>
+        <property name="alertmsg" type="boolean" />
+        <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+	    <many-to-one name="shutdownprc"     class="tncc.power.value.Shutdown" not-null="true" />	   		   			
+        
+	</class>
+	
+	
+	<!--
+	** Command Log	
+    --> 	
+	<class name="tncc.power.value.CommandLog"  table="POWER_CommandLog"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+        <many-to-one name="commandType"  class="com.base.value.AppProperty" />
+        <many-to-one name="reader"  class="tncc.power.value.Reader" lazy="false"/>
+        <property name="command"  type="string"  />  			
+        <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" /> 
+	</class>
+	
+	
+	<!--
+	** ScheduleDaily
+    --> 	
+	<class name="tncc.power.value.ScheduleDaily"  table="POWER_ScheduleDaily"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>          
+        <many-to-one name="drive"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+	    <many-to-one name="mode"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+	    <many-to-one name="fanSpeed"  class="com.base.value.AppProperty" lazy="false"/>
+	    <property name="temp" type="integer" />
+	    <many-to-one name="lock"  class="com.base.value.AppProperty" lazy="false"/>	   
+	    <many-to-one name="driveItem"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+	    <many-to-one name="modeItem"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+	    <many-to-one name="tempItem"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+	    <many-to-one name="filterItem"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+        <property name="scheduledDate"  type="timestamp" not-null="true"/> 
+        <property name="active" type="boolean" />        
+        <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" /> 
+        <many-to-one name="type"  class="com.base.value.AppProperty" lazy="false" />
+	    <property name="ip"  	type="string"/>	    
+	    <property name="lastModifiedDate"  	type="timestamp"/>
+	    <many-to-one name="lastModifiedUser"   column="lastModifiedUser"   class="com.common.value.Member" />	   		   			
+        <property name="groupCode"  	type="string"/>	    
+	    <property name="courseNum" type="integer"/>
+	    <property name="flag"  	type="integer"/>	
+	    <property name="pass" type="boolean" />    
+	    
+        <set name="readers"    table="POWER_ScheduleDailyReader" cascade="save-update" lazy="false">              
+            <key column="scheduleDailyId"/> 
+            <many-to-many class="tncc.power.value.Reader"  column="readerId"/>            
+        </set> 
+	</class>
+	
+	<!--
+	** ScheduleDaily
+    --> 	
+	<class name="tncc.power.value.ScheduleReaderDaily"  table="POWER_ScheduleDaily_View"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="assigned"/>
+        </id>         
+        <many-to-one name="reader"  class="tncc.power.value.Reader" lazy="false" not-null="true"/>
+	    <many-to-one name="scheduleDaily"  class="tncc.power.value.ScheduleDaily" lazy="false" not-null="true"/>
+	    <property name="scheduledDate"  type="timestamp" not-null="true"/> 
+        <property name="active" type="boolean" /> 
+        <many-to-one name="type"  class="com.base.value.AppProperty" lazy="false" />
+	    <many-to-one name="powerController"  class="tncc.power.value.PowerController" lazy="false" not-null="true"/>
+	</class>  
+	
+	 
+	<!--
+	** ClearDaily
+    --> 	
+	<class name="tncc.power.value.ClearDaily"  table="POWER_ClearDaily"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+          <generator class="identity"/>
+        </id>   
+        <many-to-one name="reader"  class="tncc.power.value.Reader" lazy="false" />
+        <many-to-one name="powercontroller"  class="tncc.power.value.PowerController" lazy="false"/>
+
+	</class>   
+	
+	<!--
+	** Log
+    --> 	
+	<class name="tncc.power.value.Log"  table="POWER_Log"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+          <generator class="identity"/>
+        </id>   
+        <many-to-one name="type"  class="com.base.value.AppProperty" lazy="false" not-null="true"/>
+	    <many-to-one name="scheduleDaily"  class="tncc.power.value.ScheduleDaily" lazy="false" />
+	    <many-to-one name="reader"  class="tncc.power.value.Reader" lazy="false" />
+	    <property name="msg"  type="text"  />
+	    <property name="ip"   type="string"   length="30" />  
+	    <property name="createdDate"  type="timestamp" insert="true" update="false"/> 
+        <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" />	   		   			
+        
+    </class>   
+	
+	
+	
+	 
+</hibernate-mapping>

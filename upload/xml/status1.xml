@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceStatus>
+  <status>
+    <sensor>3</sensor>
+  </status>
+  
+    <status>
+    <sensor>4</sensor>
+  </status>
+  
+      <status>
+    <sensor>5</sensor>
+  </status>
+  
+
+</DeviceStatus>
+

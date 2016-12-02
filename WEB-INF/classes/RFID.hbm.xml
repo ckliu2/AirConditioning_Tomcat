@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<!--
+	** 儲扣值記錄	
+    --> 	
+	<class name="rfid.card.value.Recorder"  table="RFID_REC"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="money" type="integer" />   
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>   
+        <property name="memo"  column="memo"  type="string"   length="500" />
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="kind"   column="kind"   class="com.base.value.AppProperty" not-null="true"/>	
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>			
+	</class> 
+	
+	
+	<!--
+	** 驗鈔機接收記錄	
+    --> 	
+	<class name="rfid.card.value.Machine"  table="RFID_Machine"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="money" type="integer" />   
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="kind"   column="kind"   class="com.base.value.AppProperty" not-null="true"/>	
+	   
+	</class>
+	
+	
+	
+</hibernate-mapping>

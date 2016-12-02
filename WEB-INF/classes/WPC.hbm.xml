@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<!--
+	** Sensorstatus	
+    --> 	
+	<class name="tncc.wpc.value.Sensorstatus"  table="WPC_SensorStatus"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="status"  type="integer" column="status" length="1"/>  		 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+        <many-to-one name="sensor"   column="sensor"   class="tncc.wpc.value.Sensor" not-null="true"/>
+	</class> 
+	
+	
+	<!--
+	** Sensor	
+    --> 	
+	<class name="tncc.wpc.value.Sensor"  table="WPC_Sensor"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="name"  column="name"  type="string"   length="30" />  		 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <property name="channel" type="int" />
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="controller"   column="controller"   class="tncc.wpc.value.Controller" not-null="true"/>	
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="deviceProperty"   column="deviceProperty"   class="tncc.wpc.value.DeviceProperty" not-null="true"/>						
+	    <many-to-one name="mydvr"   column="mydvr"   class="tncc.wpc.value.MyDVR" />
+	</class> 
+	
+	
+	<!--
+	** Controller	
+    --> 	
+	<class name="tncc.wpc.value.Controller"  table="WPC_Controller"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="name"  column="name"  type="string"   length="30" />  
+		<property name="ip"  column="ip"  type="string"   length="30" /> 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="room"   column="room"   class="tncc.wpc.value.Room" not-null="true"/>	
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>			
+	</class>
+	
+	<!--
+	** Room	
+    --> 	
+	<class name="tncc.wpc.value.Room"  table="WPC_Room"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+		<property name="name"  column="name"  type="string"   length="30" /> 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="building"   column="building"   class="tncc.wpc.value.Building" not-null="true"/>
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>			
+	</class>
+	
+	
+	<!--
+	** Building	
+    --> 	
+	<class name="tncc.wpc.value.Building"  table="WPC_Building"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+		<property name="name"  column="name"  type="string"   length="30" /> 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>			
+	    <many-to-one name="photo"		class="com.base.value.UploadedFile"	column="photo"	cascade="all" />
+	</class>
+	
+  
+  <!-- Role Manager -->
+	
+	
+    <!--
+	** DeviceProperty Manager
+    --> 	
+	<class name="tncc.wpc.value.DeviceProperty"  table="WPC_DeviceProperty"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+		<property name="name"  column="name"  type="string"   length="30" /> 
+		<property name="memo"  column="memo"  type="string"   length="100" /> 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>	    
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>	
+	</class>
+	
+	
+    <!--
+	** Times Manager
+    --> 	
+	<class name="tncc.wpc.value.Times"  table="WPC_Times"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+        <property name="time" type="integer" /> 	
+        <property name="cycle" type="integer" /> 	
+	</class>
+	
+	
+	<!--
+	** Role Manager
+    --> 	
+	<class name="tncc.wpc.value.Rule"  table="WPC_Rule"  	 > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+		<property name="name"  column="name"  type="string"   length="30" not-null="true"/> 
+		<property name="during" type="integer"  /> 
+		<property name="memo"  column="memo"  type="string"   length="100" />
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>	    
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="status"	class="com.base.value.AppProperty"	cascade="none" lazy="false"/>
+	    <many-to-one name="times"	class="tncc.wpc.value.Times"	cascade="none"  lazy="false"/>	
+	    <many-to-one name="evenLevel"   column="evenLevel"   class="tncc.wpc.value.EvenLevel"   lazy="false"/>
+	    <many-to-one name="decision"	class="com.base.value.AppProperty"	cascade="none" not-null="true" lazy="false"/>	    
+	    <many-to-one name="deviceProperty"   column="deviceProperty"   class="tncc.wpc.value.DeviceProperty" not-null="true" lazy="false"/>
+	
+	  <list name="conditions" cascade="none" table="WPC_RuleCondition" lazy="false">
+        	<meta attribute="widget">none</meta>
+        	<key column="ruleId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="com.base.value.AppProperty" column="conditionId" /> 
+ 	  </list> 
+	
+	</class>
+	
+	<!--
+	** EvenLevel Manager
+    --> 	
+	<class name="tncc.wpc.value.EvenLevel"  table="WPC_EvenLevel"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+		<property name="name"  column="name"  type="string"   length="30" /> 
+		<property name="shortMessage"  column="shortMessage"  type="string"   length="30" />
+		<property name="longMessage"  column="longMessage"  type="string"   length="800" />
+		<property name="memo"  column="memo"  type="string"   length="100" /> 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>	    
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>	
+	    <many-to-one name="messenger"   column="messenger"   class="tncc.wpc.value.Messenger" lazy="false"/>	
+	</class>	
+	
+	<!--
+	** Messenger Manager
+   	-->
+	<class name="tncc.wpc.value.Messenger" table="WPC_Messenger">
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+    <property name="name"  type="string" length="30" not-null="true" />
+    <property name="memo"  type="string" length="500"  />
+    <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+    <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>	    
+	<many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>	    
+	<list name="securitys" cascade="none" table="COM_MemberMessenger" lazy="false">
+        	<meta attribute="widget">none</meta>
+        	<key column="messengerId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="tncc.wpc.value.Security" column="securityId" /> 
+ 	</list>       
+  </class>
+  
+    <!--
+	** Security  Manager
+   	-->
+	<class name="tncc.wpc.value.Security" table="WPC_Security">
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+    <property name="name"  type="string" length="30" not-null="true" />
+    <property name="memo"  type="string" length="500"  />
+    <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+    <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>	    
+	<many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>	    
+    <list name="members" cascade="none" table="COM_MemberSecurity" lazy="false">
+        	<meta attribute="widget">none</meta>
+        	<key column="messengerId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="com.common.value.Member" column="memberId" /> 
+ 	</list>        
+  </class>
+  
+  	<!--
+	** DVR	
+    --> 	
+	<class name="tncc.wpc.value.MyDVR"  table="WPC_MyDVR"   > 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>   
+		<property name="name"  column="name"  type="string"   length="30" not-null="true"/>  
+		<property name="ip"  column="ip"  type="string"   length="30" not-null="true"/> 
+		<property name="userId"  column="userId"  type="string"   length="30" not-null="true"/>
+		<property name="password"  column="password"  type="string"   length="30" not-null="true"/>
+		<property name="port" type="int" not-null="true"/> 
+		<property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/> 
+        <many-to-one name="member"   column="member"   class="com.common.value.Member" not-null="true"/>	
+	    <many-to-one name="createdUser"   column="createdUser"   class="com.common.value.Member" not-null="true"/>			
+	</class>
+	 
+</hibernate-mapping>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<!--
+	** Course	
+    --> 	
+	<class name="tncc.reserve.value.Course"  table="RESERVE_Course"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+             <generator class="assigned"/>
+        </id> 
+       <property name="name"  column="name"  type="string"   length="50"  not-null="true"/> 		 
+	</class>
+	
+    <!--
+	** Classroom	
+    --> 	
+	<class name="tncc.reserve.value.ClassRoom"  table="RESERVE_ClassRoom"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+             <generator class="assigned"/>
+        </id> 
+       <property name="name"  column="name"  type="string"   length="50"  not-null="true"/> 		 
+	</class>
+	
+	<!--
+	** Reserve	
+    --> 	
+	<class name="tncc.reserve.value.ClassInfo"  table="RESERVE_ClassInfo"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+        <property name="week"   type="integer"   not-null="true" /> 
+        <property name="time1" 	type="boolean" 	 not-null="true"/>
+        <property name="time2" 	type="boolean" 	 not-null="true"/>
+        <property name="time3" 	type="boolean" 	 not-null="true"/>
+        <property name="time4" 	type="boolean" 	 not-null="true"/>
+        <property name="time5" 	type="boolean" 	 not-null="true"/>
+        <property name="time6" 	type="boolean" 	 not-null="true"/>
+        <property name="time7" 	type="boolean" 	 not-null="true"/>
+        <property name="time8" 	type="boolean" 	 not-null="true"/>
+        <property name="time9" 	type="boolean" 	 not-null="true"/>
+        <property name="time10" 	type="boolean" 	 not-null="true"/>
+        <property name="time11" 	type="boolean" 	 not-null="true"/>
+        <property name="time12" 	type="boolean" 	 not-null="true"/>     
+        <property name="time13" 	type="boolean" 	 not-null="true"/>
+        <property name="time14" 	type="boolean" 	 not-null="true"/>
+        <property name="time15" 	type="boolean" 	 not-null="true"/>
+        <property name="time16" 	type="boolean" 	 not-null="true"/>
+        <property name="time17" 	type="boolean" 	 not-null="true"/>
+        <property name="openNo"     type="string"   length="10"  not-null="true"/>
+     	<property name="enabled" 	type="boolean" 	 not-null="true"/>
+        <many-to-one name="reader"   column="reader"   class="tncc.power.value.Reader" not-null="true"/>
+        <many-to-one name="teacher"   column="teacher"   class="com.common.value.Member" />
+	    
+	    <many-to-one name="course"   column="course"   class="tncc.reserve.value.Course" not-null="true"/>
+        
+        <many-to-one name="classTime"   class="tncc.reserve.value.ClassTime" not-null="false"/>
+
+
+
+ 		<set name="students"    table="RESERVE_ClassInfoStudents" cascade="save-update">              
+            <key column="classInfoId"/> 
+            <many-to-many class="com.common.value.Member"  column="memberId"/>            
+        </set> 
+ 		
+	</class> 
+	
+	
+    <!--
+	** ClassTime	
+    --> 	
+	<class name="tncc.reserve.value.ClassTime"  table="RESERVE_ClassTime"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+        <property name="lesson"   type="integer"   not-null="true" /> 
+        <property name="beginTime"  type="string"   length="10"  not-null="true"/> 
+        <property name="endTime"  type="string"   length="10"  not-null="true"/> 
+        <property name="downloadBeginTime"  type="string"   length="10"  not-null="true"/> 
+        <property name="downloadEndTime"  type="string"   length="10"  not-null="true"/> 
+        <property name="weekEnd"   type="integer"   not-null="true" />
+	
+	</class> 
+	
+	
+	<!--
+	** QuartzRec	
+    --> 
+    
+    <class name="tncc.reserve.value.QuartzRec"  table="RESERVE_QuartzRec"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id> 
+         <property name="quartzDate"   type="java.util.Date"/>
+         <property name="week"   type="integer"   not-null="true" />
+         <property name="createdDate"  type="timestamp" column="createdDate" insert="true" update="false" not-null="true"/>
+         <many-to-one name="classTime"   class="tncc.reserve.value.ClassTime" not-null="true"/>
+	     <many-to-one name="classInfo"   class="tncc.reserve.value.ClassInfo" not-null="true"/>
+	     <many-to-one name="teacher"   column="teacher"   class="com.common.value.Member" />
+	     <set name="students"    table="RESERVE_QuartzRecStudents" cascade="save-update">              
+            <key column="quartzRecId"/> 
+            <many-to-many class="com.common.value.Member"  column="memberId"/>            
+         </set> 
+	 </class>
+	
+	<!--
+	** Admin	
+   	
+	<class name="tncc.reserve.value.AdminClass"  table="RESERVE_AdminClass"> 
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>       
+        <property name="time"   type="integer"   not-null="true" /> 
+        <property name="ApplyDate"  type="timestamp" 	insert="true" update="false"  />
+	    <many-to-one name="reader"   column="reader"   class="tncc.power.value.Reader" not-null="true"/>
+        <many-to-one name="teacher"   column="teacher"   class="com.common.value.Member" not-null="true"/>
+	    <many-to-one name="course"   column="course"   class="tncc.reserve.value.Course" not-null="true"/>
+	
+        <list name="students" cascade="none" table="RESERVE_AdminClassStudents" lazy="false" >
+        	<meta attribute="widget">none</meta>
+        	<key column="adminClassId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="com.common.value.Member" column="memberId" /> 
+ 		</list> 	
+	</class>
+	 -->  
+</hibernate-mapping>

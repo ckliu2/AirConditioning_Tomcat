@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.tep.survey.value.Survey" table="SVY_Survey">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+		
+        <property name="numRecordPerPage"  		type="integer" />
+        <property name="needLogin"          type="boolean" />
+        <property name="name"  				type="string" length="100" 	not-null="true" />
+        <property name="intro"  			type="string" length="1000" 	not-null="true" />
+
+    	<property name="published"   		type="boolean" />
+		<property name="publishedStartDate" type="date" not-null="true" />
+		<property name="publishedEndDate"  	type="date" not-null="true" />
+
+		<property name="lastModifiedDate"  	type="timestamp" 	    not-null="true" />
+		<property name="lastModifiedUser"  	type="string" 			length="50"  not-null="true" />
+		<property name="createdDate"  		type="timestamp" 		insert="true" update="false" not-null="true" />
+		<property name="createdUser"  		type="string"    		length="50" 	insert="true" update="false" not-null="true" />
+
+		<many-to-one name="surveyType"	class="com.base.value.AppProperty"	cascade="none" not-null="true" />
+        <many-to-one name="picture"     class="com.base.value.UploadedFile" cascade="all" column="picture"  />
+        <many-to-one    name="member"               class="com.common.value.Member"         cascade="none" />
+	    
+	    
+        <list name="svyQuestion" cascade="none" lazy="false" table="SVY_SurveyQuestion">
+	       <key column="surveyId"/>
+	       <index column="idx"/>
+           <composite-element class="com.tep.survey.value.SvyQuestion">
+               <property name="seqNo"          type="integer"  not-null="true" />
+               <many-to-one name="qstn" class="com.tep.survey.value.Question" cascade="none" column="qstn" not-null="true" />
+           </composite-element>
+	    </list>
+	    
+	    <list name="group" cascade="none"  table="SVY_SurveyGroup" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="surveyId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="com.base.value.Group" column="groupId" /> 
+ 		</list>		    
+    </class>
+
+    <class name="com.tep.survey.value.Question" table="SVY_Question" discriminator-value="0">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+		<discriminator column="qtype" type="integer" />
+		
+        <property name="name"  		type="string" length="100" 	not-null="true" />
+        <property name="text"  		type="string" length="1000" not-null="true" />
+        <property name="remark"     type="string" length="250"  />
+        <property name="required"       type="boolean" />
+        <property name="needOpenOption"          type="boolean"  />
+
+       	<many-to-one 	name="category" 	class="com.tep.survey.value.Category"  cascade="none" not-null="true" />
+        <many-to-one    name="member"               class="com.common.value.Member"         cascade="none" />
+
+		<subclass name="com.tep.survey.value.OpenEndQuestion" discriminator-value="10">
+            <property name="longText"      column="long_Text"  type="boolean" />
+            <property name="openEndType"          type="integer" />
+		</subclass>
+
+		<subclass name="com.tep.survey.value.ScaleChoiceQuestion" discriminator-value="20">
+			<property name="choiceNum"  		type="integer"  />
+            <property name="optionType"         type="integer"  />
+            <property name="optionBaseKind"     type="string" length="100"  />
+             
+			<list name="option" cascade="all" lazy="false" table="SVY_QuestionOption">
+				<key column="questionId"/>
+				<index column="IDX"/>
+				<many-to-many class="com.tep.survey.value.Option" column="optionId"/>
+			</list>
+
+			<subclass name="com.tep.survey.value.RatingScaleQuestion" discriminator-value="21">
+			</subclass>
+			
+			<subclass name="com.tep.survey.value.AgreementScaleQuestion" discriminator-value="22">
+		        <property name="gradeType"  		type="integer"  	 />
+		        <property name="numberOfGrade"  		type="integer"  	 />
+			</subclass>
+		</subclass>
+    </class>
+
+<!-- 
+    <class name="com.tep.survey.value.SvyQuestion" table="SVY_SvyQuestion">
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" type="long" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+        
+        <property name="seqNo"          type="integer"  not-null="true" />
+        <many-to-one name="qstn" class="com.tep.survey.value.Question" cascade="none" column="qstn" not-null="true" />
+    </class>
+ -->
+     
+    <class name="com.tep.survey.value.Option" table="SVY_Option" discriminator-value="0">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+        <discriminator column="otype" type="integer" />
+        
+        <property name="seqNo"	     type="integer"  not-null="true" />
+		<property name="text"  	type="string" length="200" 	not-null="true" />
+        <many-to-one    name="member"               class="com.common.value.Member"         cascade="none" />
+        
+	   <subclass name="com.tep.survey.value.OptionBase" discriminator-value="1">
+	       <property name="kind"     type="string" length="100" />
+	   </subclass>
+    </class>
+
+    <class name="com.tep.survey.value.Answer" table="SVY_Answer">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+		
+        <property       name="uid"                  type="string"                           length="50"  />
+        <property       name="sid"                  type="string"	             	        length="32"    not-null="true" />
+        <property 		name="ans"  				type="string"  							length="500" />
+        <property       name="client"                  type="string"                           length="30" />
+		<property 		name="createdDate"  		type="timestamp" 						not-null="true" />
+        <many-to-one    name="survey"               class="com.tep.survey.value.Survey"	    cascade="none" not-null="true" />
+       	<many-to-one 	name="question" 			class="com.tep.survey.value.Question"  	cascade="none" not-null="true" />
+       	<many-to-one 	name="member" 				class="com.common.value.Member"	        cascade="none" not-null="true" />
+    </class>
+
+    <class name="com.tep.survey.value.Category" table="SVY_Category">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+		
+        <property	  name="level"  			type="integer"     not-null="true" />
+        <property	  name="name"	            type="string"	   length="50"     not-null="true" />
+        <property	  name="intro"  			type="string"      length="200"    not-null="true" />
+		<property     name="lastModifiedDate"  	type="timestamp"   not-null="true" />
+		<property     name="lastModifiedUser"  	type="string"      length="50"     not-null="true" />
+		<property     name="createdDate"  		type="timestamp"   insert="true"   update="false" not-null="true" />
+		<property     name="createdUser"  		type="string"      length="50" 	   insert="true" update="false" not-null="true" />
+        <many-to-one    name="member"               class="com.common.value.Member"         cascade="none" />
+       	<many-to-one 	name="parent" 		class="com.tep.survey.value.Category"  cascade="none"/>
+    </class>
+
+</hibernate-mapping>

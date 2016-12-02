@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<powerstatus>
+  <door id="351">
+    <classroom>T3301</classroom>
+    <powercontroller>%E7%AC%AC%E4%B8%89%E6%95%99%E5%AD%B8%E5%A4%A7%E6%A8%931F</powercontroller>
+    <powercontrollerIP>140.118.18.204</powercontrollerIP>
+    <readerId>9</readerId>
+    <status />
+    <state>#F5F5F5</state>
+    <time>2014-10-17 13:22:35</time>
+  </door>
+</powerstatus>
+

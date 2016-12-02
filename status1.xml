@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<powerstatus>
+  <door id="269">
+    <status>OFF</status>
+    <time>2013-12-06 15:39:27.745</time>
+  </door>
+  <door id="270">
+    <status>OFF</status>
+    <time>2013-12-06 15:39:27.82</time>
+  </door>
+  <door id="271">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.841</time>
+  </door>
+  <door id="272">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.865</time>
+  </door>
+  <door id="273">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.879</time>
+  </door>
+  <door id="274">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.893</time>
+  </door>
+  <door id="275">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.907</time>
+  </door>
+  <door id="276">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.924</time>
+  </door>
+  <door id="277">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.94</time>
+  </door>
+  <door id="278">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.954</time>
+  </door>
+  <door id="279">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.969</time>
+  </door>
+  <door id="280">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.983</time>
+  </door>
+  <door id="281">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:27.995</time>
+  </door>
+  <door id="282">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.006</time>
+  </door>
+  <door id="283">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.021</time>
+  </door>
+  <door id="284">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.033</time>
+  </door>
+  <door id="285">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.051</time>
+  </door>
+  <door id="286">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.066</time>
+  </door>
+  <door id="287">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.08</time>
+  </door>
+  <door id="288">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.091</time>
+  </door>
+  <door id="289">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.109</time>
+  </door>
+  <door id="290">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.128</time>
+  </door>
+  <door id="291">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.145</time>
+  </door>
+  <door id="292">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.159</time>
+  </door>
+  <door id="293">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.175</time>
+  </door>
+  <door id="294">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.191</time>
+  </door>
+  <door id="295">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.208</time>
+  </door>
+  <door id="296">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.221</time>
+  </door>
+  <door id="297">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.233</time>
+  </door>
+  <door id="298">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.687</time>
+  </door>
+  <door id="251">
+    <status>OFF</status>
+    <time>2013-12-06 15:39:28.764</time>
+  </door>
+  <door id="252">
+    <status>OFF</status>
+    <time>2013-12-06 15:39:28.836</time>
+  </door>
+  <door id="253">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.847</time>
+  </door>
+  <door id="254">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.861</time>
+  </door>
+  <door id="255">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.877</time>
+  </door>
+  <door id="256">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.894</time>
+  </door>
+  <door id="257">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.908</time>
+  </door>
+  <door id="258">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.928</time>
+  </door>
+  <door id="259">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.947</time>
+  </door>
+  <door id="260">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.963</time>
+  </door>
+  <door id="261">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:28.978</time>
+  </door>
+  <door id="262">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.002</time>
+  </door>
+  <door id="263">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.022</time>
+  </door>
+  <door id="264">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.04</time>
+  </door>
+  <door id="265">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.061</time>
+  </door>
+  <door id="266">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.077</time>
+  </door>
+  <door id="267">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.093</time>
+  </door>
+  <door id="268">
+    <status>disconnection</status>
+    <time>2013-12-06 15:39:29.108</time>
+  </door>
+</powerstatus>
+

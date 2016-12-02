@@ -1,0 +1,90 @@
+   <table width="100%" border="0" bordercolor="#000000" ><tr><td><div align="left">
+  
+        <table width="100%" border="0"><tr>
+           <td width="50%" id="td1-${sr.reader.id}">
+            
+           <div align="left">  
+                         
+            <c:if test="${sr.powercontroller.deviceTypeId==45}">                
+                   <a id="jttrigger-${i}"><img src="images/deconnection.png" height="16" border="0" id="devicestatus${sr.reader.id}" /></a>
+			             <div id="jttip-${i}" class="jttip" style="display:none;">
+				           <div class="jttipcontent">
+				             <span id="classname${sr.reader.id}"/>					        
+				           </div>
+		           </div> 
+            </c:if>  
+                          
+            <c:set var="i" value="${i+1}" /> 
+            <strong>${sr.reader.name}</strong> 
+            <span align="left" id="dinlettemp${sr.reader.id}" class="showTemp"/>                         
+           </div>   
+                        
+           </td> 
+             <td width="50%" id="td2-${sr.reader.id}">                
+                <div align="right">                  
+                   <input type="button" name="ON${sr.reader.id}" id="ON${sr.reader.id}" value="ON" class="cButton"  onclick="setDevicePowerStatus('${sr.reader.name}','${sr.reader.id}','ON','啟動')"/>
+                   <input type="button" name="OFF${sr.reader.id}" id="OFF${sr.reader.id}" value="OFF" class="cButton" onClick="setDevicePowerStatus('${sr.reader.name}','${sr.reader.id}','OFF','關閉')" />
+                </div>           
+             </td>
+          </tr>
+          <tr>
+            <td align="right" class="showTimeBox" id="td3-${sr.reader.id}">            
+            <div align="left" id="time${sr.reader.id}"></div>  
+            
+            <c:if test="${sr.powercontroller.deviceTypeId==45}">
+           
+            <!---------------------------排程------------------------------>            
+            <a id="jttrigger-${i}"><img src="images/schedule.png" id="scheduleICON${sr.reader.id}" border="0" title="檢視排程"/></a>
+			      <div id="jttip-${i}" class="jttip" style="display:none;">
+				    <div class="jttipcontent">
+				       <span id="schedule${sr.reader.id}"/>					   </div>
+		        </div> 
+		        ????
+            <!---------------------------排程------------------------------>
+            
+            <c:set var="i" value="${i+1}" />        
+            
+            <!---------------------------設備屬性------------------------------>            
+            <a id="jttrigger-${i}"><img src="images/settings.png" id="settingICON${sr.reader.id}" border="0" title="設備屬性"/></a>
+			      <div id="jttip-${i}" class="jttip" style="display:none;">
+				    <div class="jttipcontent">
+				       <span id="setting${sr.reader.id}"/>					   
+				    </div>
+		        </div>   
+		        
+		        ??</c:if></td>
+            <td align="left" class="showTimeBox" valign="bottom" id="td3-${sr.reader.id}">
+            
+            <c:if test="${sr.powercontroller.deviceTypeId==45}">
+              
+              <!---------------------------設備屬性------------------------------>
+                  <c:set var="i" value="${i+1}" />
+                  <!---------------------------是否啟用------------------------------>
+                  <c:set var="active" value="" />
+                  <c:set var="activemsg" value="" />
+                  <ww:if test="${sr.reader.active == true}">
+                    <c:set var="active" value="active.png" />
+                    <c:set var="activemsg" value="套用課表" />
+                  </ww:if>
+                  <ww:else>
+                    <c:set var="active" value="none.png" />
+                    <c:set var="activemsg" value="不套用課表" />
+                  </ww:else>
+                  <a id="jttrigger-${i}2"><img src="images/${active}" id="activeICON${sr.reader.id}" border="0" title="是否套用課表排程" /></a>
+                  <div id="jttip-${i}2" class="jttip" style="display:none;">
+                    <div class="jttipcontent"> ${activemsg} </div>
+                  </div>
+              ????
+              <!---------------------------Information------------------------------>
+                  <c:set var="i" value="${i+1}" />
+                  <a id="jttrigger-${i}2"><img src="images/info.png" border="0" title="其他資訊"/></a>
+                  <div id="jttip-${i}2" class="jttip" style="display:none;">
+                    <div class="jttipcontent"> <span id="info${sr.reader.id}"/> </div>
+                  </div>
+              <!---------------------------Information------------------------------>
+            </c:if>
+            </td>
+          </tr>
+        </table>        
+        </div>
+        </td></tr></table>

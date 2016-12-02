@@ -1,0 +1,39 @@
+.ui-menu {
+	list-style: none; margin: 0px; padding: 2px; display: block;
+}
+.ui-menu .ui-menu {
+	margin-top: -3px; position: absolute;
+}
+.ui-menu .ui-menu-item {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.ui-menu .ui-menu-divider {
+	border-width: 1px 0px 0px; margin: 5px -2px; height: 0px; line-height: 0; font-size: 0px;
+}
+.ui-menu .ui-menu-item a {
+	padding: 2px 0.4em; line-height: 1.5; font-weight: normal; text-decoration: none; display: block; min-height: 0px;
+}
+.ui-menu .ui-menu-item a.ui-state-focus {
+	margin: -1px; font-weight: normal;
+}
+.ui-menu .ui-menu-item a.ui-state-active {
+	margin: -1px; font-weight: normal;
+}
+.ui-menu .ui-state-disabled {
+	margin: 0.4em 0px 0.2em; line-height: 1.5; font-weight: normal;
+}
+.ui-menu .ui-state-disabled a {
+	cursor: default;
+}
+.ui-menu-icons {
+	position: relative;
+}
+.ui-menu-icons .ui-menu-item a {
+	padding-left: 2em; position: relative;
+}
+.ui-menu .ui-icon {
+	left: 0.2em; top: 0.2em; position: absolute;
+}
+.ui-menu .ui-menu-icon {
+	float: right; position: static;
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:jdbc.properties"/>
+    </bean>
+
+    <bean id="txProxyTemplate" abstract="true"
+        class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager"><ref bean="transactionManager"/></property>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="save*">PROPAGATION_REQUIRED</prop>
+                <prop key="remove*">PROPAGATION_REQUIRED</prop>
+                <prop key="update*">PROPAGATION_REQUIRED</prop>               
+                <prop key="*">PROPAGATION_REQUIRED</prop>
+            </props>
+        </property>
+    </bean>
+    
+     
+     <bean id="commonManager" parent="txProxyTemplate">
+        <property name="target">
+            <bean class="com.common.service.impl.CommonManagerImpl">
+                <property name="genericDAO" ref="commonDAO"/>
+            </bean>
+        </property>
+    </bean>
+
+<!-- ********************************************************************************* -->
+
+    <!-- 
+    ************************ 
+    * 交易記錄Manager
+    ************************
+    -->
+    
+    <bean id="recorderManager" parent="txProxyTemplate">
+        <property name="target">
+            <bean class="rfid.card.service.impl.RecorderManagerImpl">
+                <property name="genericDAO" ref="recorderDAO"/>
+            </bean>
+        </property>
+    </bean>
+    
+    <!-- 
+    ************************ 
+    * WPCManager
+    ************************
+    -->
+    <bean id="wpcManager" parent="txProxyTemplate">
+        <property name="target">
+            <bean class="tncc.wpc.service.impl.wpcManagerImpl">
+                <property name="genericDAO" ref="wpcDAO"/>
+            </bean>
+        </property>
+    </bean>
+    
+    
+    <!-- 
+    ************************ 
+    * PowerManager
+    ************************
+    -->
+    <bean id="powerManager" parent="txProxyTemplate">
+        <property name="target">
+            <bean class="tncc.power.service.impl.PowerManagerImpl">
+                <property name="genericDAO" ref="powerDAO"/>
+            </bean>
+        </property>
+    </bean>
+    
+    
+    <bean id="reserveManager" parent="txProxyTemplate">
+        <property name="target">
+            <bean class="tncc.reserve.service.impl.ReserveManagerImpl">
+                <property name="genericDAO" ref="reserveDAO"/>
+            </bean>
+        </property>
+    </bean>
+    
+    
+    
+    <bean id="myProperties" class="com.base.util.MyProperties">   
+      <property name="g50filePath">   
+        <value>D:\\Tomcat\\webapps\\AirConditioning\\</value>   
+      </property>
+      
+      <property name="OGWebService">   
+        <value>http://140.118.18.221/OGWeb/OGWebService/OGWebService.asmx</value>   
+      </property>      
+      
+      <property name="inquireOGerver">   
+        <value>D:\\Tomcat\\webapps\\AirConditioning\\InquireOGerver.xml</value>   
+      </property>
+      
+      <property name="quartzG50URL">   
+        <value>http://localhost/AirConditioning/quartzDownload.html</value>   
+      </property>
+      
+    </bean>  
+ 
+</beans>

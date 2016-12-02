@@ -1,0 +1,30 @@
+.ui-dialog {
+	padding: 0.2em; outline: 0px; left: 0px; top: 0px; position: absolute;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: 0.4em 1em; position: relative;
+}
+.ui-dialog .ui-dialog-title {
+	margin: 0.1em 0px; width: 90%; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	margin: -10px 0px 0px; padding: 1px; top: 50%; width: 21px; height: 20px; right: 0.3em; position: absolute;
+}
+.ui-dialog .ui-dialog-content {
+	background: none; padding: 0.5em 1em; border: 0px currentColor; border-image: none; overflow: auto; position: relative;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	border-width: 1px 0px 0px; padding: 0.3em 1em 0.5em 0.4em; text-align: left; margin-top: 0.5em; background-image: none;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: 0.5em 0.4em 0.5em 0px; cursor: pointer;
+}
+.ui-dialog .ui-resizable-se {
+	background-position: 16px 16px; width: 12px; height: 12px; right: -5px; bottom: -5px;
+}
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}

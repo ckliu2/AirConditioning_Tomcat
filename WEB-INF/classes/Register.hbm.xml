@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!-- 
+    ************************ 
+    * 特會名稱 
+    ************************
+    -->
+    <class name="com.sign.value.Register" table="SGN_REGISTER">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+        <property name="name"  				type="string" length="100" 	not-null="true" />
+    	<property name="published"   		type="boolean" />
+		<property name="publishedStartDate" type="date" not-null="true" />
+		<property name="publishedEndDate"  	type="date" not-null="true" />
+		<property name="lastModifiedDate"  	type="timestamp" 	    not-null="true" />
+		<property name="lastModifiedUser"  	type="string" 			length="50"  not-null="true" />
+		<property name="createdDate"  		type="timestamp" 		insert="true" update="false" not-null="true" />
+		<property name="createdUser"  		type="string"    		length="50" 	insert="true" update="false" not-null="true" />
+	 </class>
+	 
+	<!-- 
+    ************************ 
+    * 報名主檔 
+    ************************
+    -->
+    <class name="com.sign.value.User" table="SGN_USER">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+		<property name="sunschool"   		type="boolean" />
+        <many-to-one name="member" class="com.common.value.Member"    cascade="none" />
+        <many-to-one name="register" class="com.sign.value.Register"  column="register"  />         
+        <many-to-one name="agelevel" class="com.base.value.AppProperty"  column="agelevel" cascade="none"/> 
+        <many-to-one name="belief" class="com.base.value.AppProperty"   column="belief" cascade="none"/>         
+        <many-to-one name="trafficCome" class="com.base.value.AppProperty"  cascade="none"/>
+        <many-to-one name="trafficOut" class="com.base.value.AppProperty"   cascade="none"/>        
+        <many-to-one name="confirm" class="com.base.value.AppProperty"   cascade="none"/>
+        <many-to-one name="family" class="com.common.value.Member"   cascade="none"/>
+        <many-to-one name="memento" class="com.base.value.AppProperty"   cascade="none"/>
+    
+        
+        
+         <list name="meals" cascade="none" table="SGN_MEAL" >
+        	<meta attribute="widget">checkbox</meta>
+        	<key column="userId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="com.base.value.AppProperty" column="mealId" /> 
+		</list>
+		
+		<list name="dorms" cascade="none" table="SGN_DORM" >
+        	<meta attribute="widget">checkbox</meta>
+        	<key column="userId" /> 
+        	<index column="IDX" /> 
+        	<many-to-many class="com.base.value.AppProperty" column="dormId" /> 
+		</list>
+	 </class> 
+
+	 
+	
+		 
+	<!-- 
+    ************************ 
+    * 組別 
+    ************************
+    -->
+    <class name="com.sign.value.CTeam" table="SGN_TEAM">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+        <property name="name"  				type="string" length="100" 	not-null="true" />
+        <property name="place"  				type="string" length="100" 	not-null="true" />
+        <many-to-one name="unit" class="com.common.value.Unit"   column="unitId"/>         
+        <many-to-one name="leader" class="com.sign.value.User"  column="leader"  />
+        <many-to-one name="register" class="com.sign.value.Register"  column="register"  />         
+        
+         <list name="members" cascade="none" table="SGN_TeamMember" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="teamId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="com.sign.value.User" column="userId" /> 
+ 		</list>
+	 </class>
+	 
+	<!-- 
+    ************************ 
+    * 房間 
+    ************************
+    -->
+    <class name="com.sign.value.Room" table="SGN_ROOM">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+        <property name="name"  				type="string" length="100" 	 />
+        <property name="floor"      type="integer"	 />
+        <property name="price"      type="integer"	 />
+        <property name="size"      type="integer"	 />
+        <many-to-one name="depart" class="com.base.value.AppProperty"   />         
+        <many-to-one name="unit" class="com.common.value.Unit"   column="unitId"/>        
+        <many-to-one name="register" class="com.sign.value.Register"  column="register"  /> 
+         <list name="members" cascade="none" table="SGN_RoomMember" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="roomId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="com.sign.value.User" column="userId" /> 
+ 		</list>
+	 </class>
+	 
+	 
+	<!-- 
+    ************************ 
+    * 分堂 
+    ************************
+    -->
+    <class name="com.sign.value.Hall" table="SGN_Hall">
+        <meta attribute="extends">BaseObject</meta>
+		<id name="id" column="id" type="long" unsaved-value="null">
+        	<generator class="identity"/>
+		</id>
+        <property name="name"  				type="string" length="100" 	not-null="true" />   
+        <many-to-one name="leader" class="com.sign.value.User"  column="leader"  />
+        <many-to-one name="register" class="com.sign.value.Register"  column="register"  />         
+        
+         <list name="members" cascade="none" table="SGN_HallMember" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="hallId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="com.sign.value.User" column="userId" /> 
+ 		</list>
+	 </class>
+    
+    
+    
+
+   
+</hibernate-mapping>

@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<powerstatus>
+  <door id="250">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR102</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>22</inlettemp>
+    <time>2013-10-26 16:22:46.492</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>25</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="299">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR103</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:46.5</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>26</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="160">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR209</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>25</settemp>
+    <inlettemp>22</inlettemp>
+    <time>2013-10-26 16:22:46.599</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>1</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="161">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR209</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.615</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>2</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="162">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR209</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.63</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>3</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="163">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR210</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.639</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>5</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="164">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR210</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.647</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>6</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="165">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR210</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.655</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>7</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="166">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR211</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.663</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>8</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="167">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR211</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.671</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>9</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="168">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR211</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.68</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>10</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="169">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR212</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:46.688</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>11</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="170">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR212</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:46.696</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>12</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="171">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR212</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:46.703</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>13</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="172">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR213</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>25</inlettemp>
+    <time>2013-10-26 16:22:46.711</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>19</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="173">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR213</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>23</inlettemp>
+    <time>2013-10-26 16:22:46.72</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>20</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="174">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR213</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.729</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>21</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="175">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR214</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.737</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>22</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="176">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR214</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.745</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>23</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="177">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR214</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:46.753</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>24</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%931F%E3%80%812F</powercontroller>
+    <powercontrollerIP>140.118.58.225</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="196">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR309</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.832</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>25</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="197">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR309</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.85</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>26</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="198">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR309</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.865</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>27</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="199">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR309</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.88</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>28</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="200">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR3101</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.888</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>30</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="201">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR3101</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.896</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>31</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="202">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR3102</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.904</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>32</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="203">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR3102</classroom>
+    <course />
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.913</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>33</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="204">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR311</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:55.921</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>35</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="205">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR311</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:55.929</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>36</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="206">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR312</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.937</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>38</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="207">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR312</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.945</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>39</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="208">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR312</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.954</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>41</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="209">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR312</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.962</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>42</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="210">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR313</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.97</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>45</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="211">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR313</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.978</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>46</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="212">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR313</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.986</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>47</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="213">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR313</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:55.995</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>48</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="178">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4091</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:56.003</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>1</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="179">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4091</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:22:56.011</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>2</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="180">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4091</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.019</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>3</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="183">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR410</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.028</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>7</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="184">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR410</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.036</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>8</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="185">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR410</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.044</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>9</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="186">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR411</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.052</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>11</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="187">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR411</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.06</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>12</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="181">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR4092</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.069</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>4</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="182">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR4092</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.077</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>6</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="192">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4131</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>25</inlettemp>
+    <time>2013-10-26 16:22:56.085</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>21</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="193">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4131</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>25</inlettemp>
+    <time>2013-10-26 16:22:56.093</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>22</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="194">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR4132</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.157</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>23</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="195">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR4132</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.165</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>24</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="188">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4121</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.173</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>14</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="189">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR4121</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.181</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>15</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="190">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR4122</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.189</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>17</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="191">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR4122</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:22:56.198</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>18</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%933F%E3%80%814F</powercontroller>
+    <powercontrollerIP>140.118.58.226</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="232">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR509</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.704</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>25</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="233">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR509</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.721</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>26</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="234">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR510</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>25</inlettemp>
+    <time>2013-10-26 16:23:02.73</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>27</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="235">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR510</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>25</inlettemp>
+    <time>2013-10-26 16:23:02.738</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>28</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="236">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR511</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.746</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>30</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="237">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR511</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.755</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>31</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="238">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR512</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.763</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>32</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="239">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR512</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.771</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>34</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="240">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR513</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.779</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>35</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="241">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR513</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.788</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>37</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="242">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR514</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.797</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>38</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="243">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR514</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.806</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>40</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="244">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR515</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.815</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>41</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="245">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR515</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.823</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>43</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="246">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR516</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.831</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>45</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="247">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR516</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.84</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>46</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="248">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR517</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.848</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>47</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="249">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR517</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.857</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>48</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="214">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR609</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.871</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>1</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="215">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR609</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.887</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>2</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="216">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR610</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>22</inlettemp>
+    <time>2013-10-26 16:23:02.895</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>3</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="217">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR610</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>22</inlettemp>
+    <time>2013-10-26 16:23:02.904</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>4</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="218">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR611</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:23:02.912</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>6</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="219">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR611</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>24</inlettemp>
+    <time>2013-10-26 16:23:02.92</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>7</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="220">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR612</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.929</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>8</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="221">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR612</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.937</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>10</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="222">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR613</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.945</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>11</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="223">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR613</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>20</inlettemp>
+    <time>2013-10-26 16:23:02.954</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>13</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="224">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR614</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.962</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>14</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="225">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR614</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.971</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>16</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="226">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR615</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.979</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>17</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="227">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR615</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.987</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>19</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="228">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR616</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:02.996</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>21</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="229">
+    <classroomGroup>1</classroomGroup>
+    <classroom>TR616</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:03.004</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>22</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="230">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR617</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:03.012</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>23</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+  <door id="231">
+    <classroomGroup>0</classroomGroup>
+    <classroom>TR617</classroom>
+    <course />
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>26</inlettemp>
+    <time>2013-10-26 16:23:03.021</time>
+    <setting_mode>%E5%86%B7%E6%B0%A3</setting_mode>
+    <setting_driveItem>%E5%87%86%E8%A8%B1</setting_driveItem>
+    <setting_modeItem>%E5%87%86%E8%A8%B1</setting_modeItem>
+    <setting_tempItem>%E5%87%86%E8%A8%B1</setting_tempItem>
+    <setting_filterItem>%E4%B8%8D%E5%87%86%E8%A8%B1</setting_filterItem>
+    <readerId>24</readerId>
+    <powercontroller>%E7%A0%94%E6%8F%9A%E6%A8%935F%E3%80%816F</powercontroller>
+    <powercontrollerIP>140.118.58.227</powercontrollerIP>
+    <active>0</active>
+    <displayPanel>0</displayPanel>
+  </door>
+</powerstatus>
+

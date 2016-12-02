@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+<!--
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate31.LocalSessionFactoryBean">
+-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mappingResources">
+            <list>
+                <value>Common.hbm.xml</value>  
+                <value>WPC.hbm.xml</value> 	  
+                <value>POWER.hbm.xml</value>     
+                <value>Reservation.hbm.xml</value>    
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.connection.charSet">UTF-8</prop>
+                <prop key="hibernate.show_sql">false</prop>
+                <!--  
+                <prop key="c3p0.min_size">1</prop>
+                <prop key="c3p0.max_size">1</prop>
+                <prop key="c3p0.timeout">1800</prop>
+                <prop key="c3p0.max_statements">50</prop>
+                 -->   
+            </props>
+        </property>
+    </bean>
+
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="commonDAO" class="com.common.dao.hibernate.CommonDAOHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+<!-- ********************************************* -->
+
+    <!-- 
+    ************************ 
+    * 交易記錄DAO 
+    ************************
+    -->
+    <bean id="recorderDAO" class="rfid.card.dao.hibernate.RecorderDAOHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    
+    <!-- 
+    ************************ 
+    * wpcDAO 
+    ************************
+    -->
+    <bean id="wpcDAO" class="tncc.wpc.dao.hibernate.wpcDAOHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+
+    <!-- 
+    ************************ 
+    * powerDAO 
+    ************************
+    -->
+    <bean id="powerDAO" class="tncc.power.dao.hibernate.PowerDAOHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    
+    <bean id="reserveDAO" class="tncc.reserve.dao.hibernate.ReserveDAOHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+  
+
+</beans>

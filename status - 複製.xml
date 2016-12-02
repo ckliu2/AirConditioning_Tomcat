@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<powerstatus>
+  <door id="160">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>34.8</inlettemp>
+    <time>2013-07-29 16:11:07.887</time>
+  </door>
+  <door id="161">
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:07.906</time>
+  </door>
+  <door id="162">
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:07.925</time>
+  </door>
+  <door id="163">
+    <status>ON</status>
+    <settemp>24</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:07.944</time>
+  </door>
+  <door id="164">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:07.962</time>
+  </door>
+  <door id="165">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:07.982</time>
+  </door>
+  <door id="166">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:08.002</time>
+  </door>
+  <door id="167">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:08.022</time>
+  </door>
+  <door id="168">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:08.042</time>
+  </door>
+  <door id="169">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>31.0</inlettemp>
+    <time>2013-07-29 16:11:08.059</time>
+  </door>
+  <door id="170">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:08.081</time>
+  </door>
+  <door id="171">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:08.1</time>
+  </door>
+  <door id="172">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>33.9</inlettemp>
+    <time>2013-07-29 16:11:08.127</time>
+  </door>
+  <door id="173">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:08.146</time>
+  </door>
+  <door id="174">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:08.164</time>
+  </door>
+  <door id="175">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:08.179</time>
+  </door>
+  <door id="176">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:08.194</time>
+  </door>
+  <door id="177">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:08.209</time>
+  </door>
+  <door id="196">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.9</inlettemp>
+    <time>2013-07-29 16:11:14.419</time>
+  </door>
+  <door id="197">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:14.435</time>
+  </door>
+  <door id="198">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>34.4</inlettemp>
+    <time>2013-07-29 16:11:14.45</time>
+  </door>
+  <door id="199">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:14.465</time>
+  </door>
+  <door id="200">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.481</time>
+  </door>
+  <door id="201">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.497</time>
+  </door>
+  <door id="202">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.512</time>
+  </door>
+  <door id="203">
+    <status>OFF</status>
+    <settemp>24</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.527</time>
+  </door>
+  <door id="204">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:14.543</time>
+  </door>
+  <door id="205">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:14.558</time>
+  </door>
+  <door id="206">
+    <status>OFF</status>
+    <settemp>22</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.575</time>
+  </door>
+  <door id="207">
+    <status>OFF</status>
+    <settemp>22</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.589</time>
+  </door>
+  <door id="208">
+    <status>OFF</status>
+    <settemp>22</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:14.604</time>
+  </door>
+  <door id="209">
+    <status>OFF</status>
+    <settemp>22</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.622</time>
+  </door>
+  <door id="210">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.641</time>
+  </door>
+  <door id="211">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.664</time>
+  </door>
+  <door id="212">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:14.692</time>
+  </door>
+  <door id="213">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.723</time>
+  </door>
+  <door id="178">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.9</inlettemp>
+    <time>2013-07-29 16:11:14.748</time>
+  </door>
+  <door id="179">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:14.778</time>
+  </door>
+  <door id="180">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:14.804</time>
+  </door>
+  <door id="183">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:14.82</time>
+  </door>
+  <door id="184">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.839</time>
+  </door>
+  <door id="185">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.858</time>
+  </door>
+  <door id="186">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:14.873</time>
+  </door>
+  <door id="187">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.892</time>
+  </door>
+  <door id="181">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:14.913</time>
+  </door>
+  <door id="182">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:14.933</time>
+  </door>
+  <door id="192">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.955</time>
+  </door>
+  <door id="193">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:14.979</time>
+  </door>
+  <door id="194">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:15.136</time>
+  </door>
+  <door id="195">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:15.153</time>
+  </door>
+  <door id="188">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:15.169</time>
+  </door>
+  <door id="189">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:15.184</time>
+  </door>
+  <door id="190">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:15.2</time>
+  </door>
+  <door id="191">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:15.219</time>
+  </door>
+  <door id="232">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.9</inlettemp>
+    <time>2013-07-29 16:11:24.703</time>
+  </door>
+  <door id="233">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>34.4</inlettemp>
+    <time>2013-07-29 16:11:24.718</time>
+  </door>
+  <door id="234">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:24.733</time>
+  </door>
+  <door id="235">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.9</inlettemp>
+    <time>2013-07-29 16:11:24.748</time>
+  </door>
+  <door id="236">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:24.764</time>
+  </door>
+  <door id="237">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:24.779</time>
+  </door>
+  <door id="238">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:24.795</time>
+  </door>
+  <door id="239">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:24.811</time>
+  </door>
+  <door id="240">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:24.827</time>
+  </door>
+  <door id="241">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:24.846</time>
+  </door>
+  <door id="242">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:24.865</time>
+  </door>
+  <door id="243">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.5</inlettemp>
+    <time>2013-07-29 16:11:24.888</time>
+  </door>
+  <door id="244">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:24.909</time>
+  </door>
+  <door id="245">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:24.93</time>
+  </door>
+  <door id="246">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:24.944</time>
+  </door>
+  <door id="247">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:24.966</time>
+  </door>
+  <door id="248">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.0</inlettemp>
+    <time>2013-07-29 16:11:24.982</time>
+  </door>
+  <door id="249">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:25.0</time>
+  </door>
+  <door id="214">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.019</time>
+  </door>
+  <door id="215">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.038</time>
+  </door>
+  <door id="216">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:25.057</time>
+  </door>
+  <door id="217">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>33.1</inlettemp>
+    <time>2013-07-29 16:11:25.076</time>
+  </door>
+  <door id="218">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.099</time>
+  </door>
+  <door id="219">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.122</time>
+  </door>
+  <door id="220">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:25.137</time>
+  </door>
+  <door id="221">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.153</time>
+  </door>
+  <door id="222">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:25.169</time>
+  </door>
+  <door id="223">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.192</time>
+  </door>
+  <door id="224">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:25.215</time>
+  </door>
+  <door id="225">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.234</time>
+  </door>
+  <door id="226">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.4</inlettemp>
+    <time>2013-07-29 16:11:25.249</time>
+  </door>
+  <door id="227">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:25.269</time>
+  </door>
+  <door id="228">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:25.287</time>
+  </door>
+  <door id="229">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.6</inlettemp>
+    <time>2013-07-29 16:11:25.303</time>
+  </door>
+  <door id="230">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>31.8</inlettemp>
+    <time>2013-07-29 16:11:25.322</time>
+  </door>
+  <door id="231">
+    <status>OFF</status>
+    <settemp>26</settemp>
+    <inlettemp>32.2</inlettemp>
+    <time>2013-07-29 16:11:25.343</time>
+  </door>
+</powerstatus>
+

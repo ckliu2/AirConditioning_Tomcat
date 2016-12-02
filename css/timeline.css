@@ -1,0 +1,116 @@
+div.timeline-frame {
+	border: 1px solid rgb(190, 190, 190); overflow: hidden;
+}
+div.timeline-axis {
+	border-width: 1px; border-color: rgb(190, 190, 190); border-top-style: solid;
+}
+div.timeline-axis-grid {
+	border-width: 1px; border-left-style: solid;
+}
+div.timeline-axis-grid-minor {
+	border-color: rgb(229, 229, 229);
+}
+div.timeline-axis-grid-major {
+	border-color: rgb(191, 191, 191);
+}
+div.timeline-axis-text {
+	padding: 3px; color: rgb(77, 77, 77); white-space: nowrap;
+}
+div.timeline-axis-text-minor {
+	
+}
+div.timeline-axis-text-major {
+	
+}
+div.timeline-event {
+	border-color: rgb(151, 176, 248); color: rgb(26, 26, 26); display: inline-block; background-color: rgb(213, 221, 246);
+}
+div.timeline-event-selected {
+	border-color: rgb(255, 194, 0); z-index: 999; background-color: rgb(255, 247, 133);
+}
+div.timeline-event-cluster {
+	background: url("img/cluster_bg.png") rgb(151, 176, 248); color: white;
+}
+div.timeline-event-cluster div.timeline-event-dot {
+	border-color: rgb(213, 221, 246);
+}
+div.timeline-event-box {
+	border-width: 1px; border-style: solid; border-radius: 5px; text-align: left; -moz-border-radius: 5px;
+}
+div.timeline-event-dot {
+	border-width: 5px; border-style: solid; border-radius: 5px; -moz-border-radius: 5px;
+}
+div.timeline-event-range {
+	border-width: 1px; border-style: solid; border-radius: 2px; -moz-border-radius: 2px;
+}
+div.timeline-event-range-drag-left {
+	z-index: 1000; cursor: w-resize;
+}
+div.timeline-event-range-drag-right {
+	z-index: 1000; cursor: e-resize;
+}
+div.timeline-event-line {
+	border-left-width: 1px; border-left-style: solid;
+}
+div.timeline-event-content {
+	margin: 5px; overflow: hidden; white-space: nowrap;
+}
+div.timeline-groups-axis {
+	border-width: 1px; border-color: rgb(190, 190, 190);
+}
+div.timeline-groups-text {
+	color: rgb(77, 77, 77); padding-right: 10px; padding-left: 10px;
+}
+div.timeline-currenttime {
+	width: 2px; background-color: rgb(255, 127, 110);
+}
+div.timeline-customtime {
+	width: 2px; cursor: move; background-color: rgb(110, 148, 255);
+}
+div.timeline-navigation {
+	border-radius: 2px; border: 1px solid rgb(190, 190, 190); color: gray; font-family: arial; font-size: 20px; font-weight: bold; background-color: rgb(245, 245, 245); -moz-border-radius: 2px;
+}
+div.timeline-navigation-new {
+	border-color: rgb(190, 190, 190); padding: 10px; width: 16px; height: 16px; text-decoration: none; float: left; cursor: pointer;
+}
+div.timeline-navigation-delete {
+	border-color: rgb(190, 190, 190); padding: 10px; width: 16px; height: 16px; text-decoration: none; float: left; cursor: pointer;
+}
+div.timeline-navigation-zoom-in {
+	border-color: rgb(190, 190, 190); padding: 10px; width: 16px; height: 16px; text-decoration: none; float: left; cursor: pointer;
+}
+div.timeline-navigation-zoom-out {
+	border-color: rgb(190, 190, 190); padding: 10px; width: 16px; height: 16px; text-decoration: none; float: left; cursor: pointer;
+}
+div.timeline-navigation-move-left {
+	border-color: rgb(190, 190, 190); padding: 10px; width: 16px; height: 16px; text-decoration: none; float: left; cursor: pointer;
+}
+div.timeline-navigation-move-right {
+	border-color: rgb(190, 190, 190); padding: 10px; width: 16px; height: 16px; text-decoration: none; float: left; cursor: pointer;
+}
+div.timeline-navigation-new {
+	background: url("img/16/new.png") no-repeat center;
+}
+div.timeline-navigation-delete {
+	background: url("img/16/delete.png") no-repeat center; padding: 0px 0px 0px 5px;
+}
+div.timeline-navigation-zoom-in {
+	background: url("img/16/zoomin.png") no-repeat center;
+}
+div.timeline-navigation-zoom-out {
+	background: url("img/16/zoomout.png") no-repeat center;
+}
+div.timeline-navigation-move-left {
+	background: url("img/16/moveleft.png") no-repeat center;
+}
+div.timeline-navigation-move-right {
+	background: url("img/16/moveright.png") no-repeat center;
+}
+
+.cTitle {
+    font-size:20px;
+    background: #DDE8E8;
+    color: #0000FF;
+    font-weight:bold;
+    height:43px;
+}

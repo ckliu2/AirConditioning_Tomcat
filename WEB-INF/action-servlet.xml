@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="loginAction" class="com.common.web.action.LoginAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+    
+    <bean id="appPropertyAction" class="com.common.web.action.AppPropertyAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+    <bean id="miscCodeAction" class="com.common.web.action.MiscCodeAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+    
+    <bean id="functionAction" class="com.common.web.action.FunctionAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+    <bean id="functionCategoryAction" class="com.common.web.action.FunctionCategoryAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+    <bean id="groupAction" class="com.common.web.action.GroupAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+    <bean id="webSiteAction" class="com.common.web.action.WebSiteAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+    <bean id="memberAction" class="com.common.web.action.MemberAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+    
+    <bean id="unitAction" class="com.common.web.action.UnitAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+
+
+    <bean id="gradeAction" class="com.common.web.action.GradeAction" singleton="false">
+        <property name="genericManager" ref="commonManager"/>
+    </bean>
+    
+<!-- ********************************************* -->
+
+    <bean id="recorderAction" class="rfid.card.web.action.RecorderAction" singleton="false">
+        <property name="genericManager" ref="recorderManager"/>
+    </bean>
+    
+    <bean id="machineAction" class="rfid.card.web.action.MachineAction" singleton="false">
+        <property name="genericManager" ref="recorderManager"/>
+    </bean>
+ 
+ <!-- *******************wpc************************ -->
+
+    <bean id="roomAction" class="tncc.wpc.web.action.RoomAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+
+    <bean id="sensorAction" class="tncc.wpc.web.action.SensorAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+
+    <bean id="buildingAction" class="tncc.wpc.web.action.BuildingAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean> 
+    
+     <bean id="controllerAction" class="tncc.wpc.web.action.ControllerAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+    
+    <bean id="sensorstatusAction" class="tncc.wpc.web.action.SensorstatusAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+        <bean id="evenLevelAction" class="tncc.wpc.web.action.EvenLevelAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+
+    <bean id="devicePropertyAction" class="tncc.wpc.web.action.DevicePropertyAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+
+    <bean id="ruleAction" class="tncc.wpc.web.action.RuleAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+
+    <bean id="timesAction" class="tncc.wpc.web.action.TimesAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+    <bean id="messengerAction" class="tncc.wpc.web.action.MessengerAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+     <bean id="securityAction" class="tncc.wpc.web.action.SecurityAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+
+    <bean id="myDVRAction" class="tncc.wpc.web.action.MyDVRAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+    <bean id="monitorAction" class="tncc.wpc.web.action.MonitorAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+     <!-- *******************power************************ -->
+    
+    <bean id="spaceAction" class="tncc.power.web.action.SpaceAction" singleton="false">
+        <property name="genericManager" ref="powerManager"/>
+    </bean>
+
+    <bean id="readerAction" class="tncc.power.web.action.ReaderAction" singleton="false">
+        <property name="genericManager" ref="powerManager"/>
+    </bean>
+
+    <bean id="powerControllerAction" class="tncc.power.web.action.PowerControllerAction" singleton="false">
+        <property name="genericManager" ref="powerManager"/>
+    </bean>
+    
+    <bean id="basicInfoAction" class="tncc.power.web.action.BasicInfoAction" singleton="false">
+        <property name="genericManager" ref="powerManager"/>
+    </bean>
+    
+    <bean id="shutdownAction" class="tncc.power.web.action.ShutdownAction" singleton="false">
+        <property name="genericManager" ref="reserveManager"/>
+    </bean>
+    
+    <bean id="evenLogAction" class="tncc.power.web.action.EvenLogAction" singleton="false">
+        <property name="genericManager" ref="powerManager"/>
+    </bean>
+    
+    <bean id="logAction" class="tncc.power.web.action.LogAction" singleton="false">
+        <property name="genericManager" ref="powerManager"/>
+    </bean>
+    
+    <bean id="modbusAction" class="tncc.power.web.action.ModbusAction" singleton="false"/>
+       
+    
+    
+    
+   <!-- ******************* PolicyAction ************************ -->
+    
+    <bean id="policyAction" class="tncc.wpc.web.action.PolicyAction" singleton="false">
+        <property name="genericManager" ref="wpcManager"/>
+    </bean>
+    
+    
+    <bean id="quartzAction" class="tncc.reserve.action.QuartzAction" singleton="false">
+        <property name="genericManager" ref="reserveManager"/>
+    </bean>
+    
+    
+    
+    
+    
+    
+</beans>

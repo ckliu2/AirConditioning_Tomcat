@@ -1,0 +1,24 @@
+.ui-spinner {
+	padding: 0px; overflow: hidden; vertical-align: middle; display: inline-block; position: relative;
+}
+.ui-spinner-input {
+	background: none; margin: 0.2em 22px 0.2em 0.4em; padding: 0px; border: currentColor; border-image: none; color: inherit; vertical-align: middle;
+}
+.ui-spinner-button {
+	margin: 0px; padding: 0px; width: 16px; height: 50%; text-align: center; right: 0px; overflow: hidden; font-size: 0.5em; display: block; position: absolute; cursor: default;
+}
+.ui-spinner a.ui-spinner-button {
+	border-top-color: currentColor; border-right-color: currentColor; border-bottom-color: currentColor; border-top-width: medium; border-right-width: medium; border-bottom-width: medium; border-top-style: none; border-right-style: none; border-bottom-style: none;
+}
+.ui-spinner .ui-icon {
+	left: 0px; top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-spinner-up {
+	top: 0px;
+}
+.ui-spinner-down {
+	bottom: 0px;
+}
+.ui-spinner .ui-icon-triangle-1-s {
+	background-position: -65px -16px;
+}

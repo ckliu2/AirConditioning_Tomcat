@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  	
+  	<!-- 
+    ************************ 
+    * 公司
+    ************************
+    -->  
+   
+   <class name="com.enterprise.value.Company" table="COM_Company">   
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>  
+      <property name="name"				type="string" length="100"  not-null="true"  />
+      <property name="ename"				type="string" length="100"  not-null="true"  />
+      <property name="boss"				type="string" length="10"  not-null="true"  />
+      <property name="address"				type="string" length="200"  not-null="true"  />
+      <property name="fex"				type="string" length="20"  not-null="true"  />
+      <property name="phone"				type="string" length="20"  not-null="true"  />
+      <property name="email"				type="string" length="100"  not-null="true"  />
+      <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+	  <property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+	  <property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+	  <property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" />   
+       <property name="display"  type="integer" column="display" length="1">
+			<meta attribute="widget">radio</meta>
+       </property>
+      
+      <many-to-one name="logo"		class="com.base.value.UploadedFile"	column="logo"	cascade="all" />
+      <many-to-one name="industry"   column="industry"   class="com.enterprise.value.Industry"  cascade="none" />    	
+        <list name="members" cascade="none" table="COM_CompanyMember" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="companyId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="com.common.value.Member" column="memberId" /> 
+ 		</list> 
+ 		
+ 		 <list name="products" cascade="none" table="COM_CompanyProduct" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="companyId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="shop.easy.buy.value.Product" column="productId" /> 
+ 		</list> 
+    </class>
+    
+    <!-- 
+    ************************ 
+    * 產業
+    ************************
+    -->  
+   
+   <class name="com.enterprise.value.Industry" table="COM_Industry">   
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>  
+      <property name="name"				type="string" length="100"  not-null="true"  />      
+      <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+	  <property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+	  <property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+	  <property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" />   
+      </class>
+      
+    <!-- 
+    ************************ 
+    * 最新消息
+    ************************
+    -->  
+
+  <class name="com.enterprise.value.News" table="COM_News">
+    <meta attribute="extends">BaseObject</meta>
+    <id name="id" column="id" type="long" unsaved-value="null">
+        <generator class="identity"/>
+    </id>
+    <property name="subject"  type="string" length="30" not-null="false" />
+    <property name="Content"  type="string" length="1000" not-null="false" />
+    <property name="memo"  type="string" length="1000" not-null="false" />
+    <property name="publishBegin" 			type="date" 		column="publishBegin"/>
+    <property name="publishEnd" 			type="date" 		column="publishEnd"/>
+    <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+	<property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+	<property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+	<property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" /> 
+    <many-to-one name="property"		class="com.base.value.AppProperty"	column="property"	cascade="none"/>		
+  </class>  
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+.ui-accordion .ui-accordion-header {
+	padding: 0.5em 0.5em 0.5em 0.7em; margin-top: 2px; display: block; position: relative; cursor: pointer; min-height: 0px;
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-noicons {
+	padding-left: 0.7em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	left: 0.5em; top: 50%; margin-top: -8px; position: absolute;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em; overflow: auto; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}

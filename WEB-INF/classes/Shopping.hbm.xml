@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	
+	<!-- 
+    ************************ 
+    * 客戶主檔
+    ************************
+    --> 
+    <class name="shop.easy.buy.value.Customer" table="SHOP_CUSTOMER">    
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+        <property name="name"  			type="string" length="30" 	not-null="true" />
+        <property name="sex"  type="integer" column="sex" length="1">
+			<meta attribute="widget">radio</meta>
+        </property> 
+        <property name="password"  				type="string" length="20" 	not-null="true" /> 
+        <property name="email"  				type="string" length="60" 	not-null="true" />
+        <property name="phone"  			type="string" length="20" 	not-null="true" />
+        <property name="cellphone"  			type="string" length="10" 	not-null="true" />
+        <property name="address"  			type="string" length="100" 	not-null="true" />               
+        <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+		<property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+		<property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+		<property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" />
+         <!--  
+         <set name="orders" inverse="true">
+           <key column="customerID"/>
+           <one-to-many class="shop.easy.buy.value.Older"/>
+         </set>
+         -->
+    </class>
+   
+   <!-- 
+    ************************ 
+    * 商品
+    ************************
+    --> 
+   <class name="shop.easy.buy.value.Product" table="SHOP_PRODUCT">   
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>
+	  <property name="name"  			type="string" length="30" 	not-null="true" />
+	  <property name="content"  			type="string" length="500" 	not-null="true" />
+	  <property name="price"  type="long"  column="price" />
+	  <property name="portage"  type="long"  column="portage" />  
+	  <property name="origin"  			type="string" length="100" 	 />	  
+	  <property name="originDesc"  			type="string" length="500" 	 />   
+	  <property name="memo"  			type="string" length="500" 	 />  
+	  <property name="showweb" 			type="boolean"/>      		 
+      <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+	  <property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+	  <property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+	  <property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" />   
+      <many-to-one name="photo"		class="com.base.value.UploadedFile"	column="photo"	cascade="all" />
+      
+   </class>  
+   
+    <!-- 
+    ************************ 
+    * 商品分類
+    ************************
+    -->  
+   <class name="shop.easy.buy.value.ProductClass" table="SHOP_PRODUCTCLASS">   
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>
+	  <property name="name"  			type="string" length="30" 	not-null="true" />
+      <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+	  <property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+	  <property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+	  <property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" />   
+       <list name="products" cascade="none" table="SHOP_PRODUCTCLASSGROUP" >        	
+        	<key column="productclassId" /> 
+        	<index column="idx" />      
+        	<many-to-many class="shop.easy.buy.value.Product" column="ProductId" /> 
+ 		</list> 
+   </class>  
+   
+    <!-- 
+    ************************ 
+    * 訂購單
+    ************************
+    -->  
+   <class name="shop.easy.buy.value.Older" table="SHOP_OLDER">   
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>  
+      <property name="receiver"  		type="string"    	length="10"  not-null="true" />   
+      <property name="receiverPhone"  		type="string"    	length="20"  not-null="true" />  
+      <property name="receiverCellPhone"  		type="string"    	length="20"  not-null="true" />  
+      <property name="arrivalDate"  	type="timestamp" 	not-null="true" />
+      <property name="destination"  		type="string"    	length="200"  not-null="true" />      
+      <property name="invoice"  		type="string"    	length="10"  not-null="true" />
+      <property name="invoiceTitle"  		type="string"    	length="30"  not-null="true" />
+      <property name="memo"  		type="string"    	length="200"  not-null="true" />
+      <property name="lastModifiedDate"  	type="timestamp" 	not-null="true" />
+	  <property name="lastModifiedUser"  	type="string" 		length="50"  not-null="true" />
+	  <property name="createdDate"  		type="timestamp" 	insert="true" update="false" not-null="true" />
+	  <property name="createdUser"  		type="string"    	length="50" 	insert="true" update="false" not-null="true" />   
+      <many-to-one name="invoiceType"	class="com.base.value.AppProperty"	cascade="none" not-null="true" />      
+      <many-to-one name="arrivalTime"	class="com.base.value.AppProperty"	cascade="none" not-null="true" />
+      <many-to-one name="customer" class="shop.easy.buy.value.Customer"  cascade="none" not-null="true" /> 
+      <!-- 
+        ************************ 
+        * 訂購內容
+        ************************
+      --> 
+        <list name="orderdetail" cascade="none" lazy="false" table="SHOP_OLDERDETAIL">
+	       <key column="orderId"/>
+	       <index column="idx"/>
+           <composite-element class="shop.easy.buy.value.OlderDetail">
+               <property name="buyNumber" type="long"  not-null="false"></property>
+                <property name="buyPrice"  type="long"  column="buyPrice" />
+               <many-to-one name="product" column="ProductId" class="shop.easy.buy.value.Product" not-null="false" ></many-to-one>
+           </composite-element>
+	    </list>   
+    </class>
+    
+   
+    <!-- 
+    ************************ 
+    * Session User
+    ************************
+    -->      
+    
+    
+  <class name="shop.easy.buy.value.SessionUserCart" table="SHOP_SESSIONUSERCART">   
+    <meta attribute="extends">BaseObject</meta>
+    <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>        
+      <property name="ip"  		type="string" 	length="100" not-null="false" />   
+	  <property name="visitingDate"  type="timestamp" 	not-null="false" />     
+
+        <list name="cart" cascade="none" lazy="false" table="SHOP_CART">
+	       <key column="sessionId"/>
+	       <index column="idx"/>
+           <composite-element class="shop.easy.buy.value.Cart">
+               <property name="buyNumber" type="long"  not-null="false"></property>
+               <many-to-one name="product" column="ProductId" class="shop.easy.buy.value.Product" not-null="false" ></many-to-one>
+           </composite-element>
+	    </list>
+    </class>
+    
+    
+    
+    
+   
+</hibernate-mapping>

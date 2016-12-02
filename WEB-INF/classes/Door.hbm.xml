@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<!--TCP/IP Converter-->
+    <class name="prj.door.control.value.Hub" table="DOOR_HUB">    
+        <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+        <property name="ip"  				type="string" length="20" 	not-null="true" />
+        <property name="name"  			type="string" length="30" 	not-null="true" />
+        <property name="description"  			type="string" length="100" 	not-null="true" />  
+        <property name="seqNo"    type="integer" not-null="true" />	     
+    </class>
+    
+    
+   <!--TCP/IP CardReader-->
+   <class name="prj.door.control.value.CardReader" table="DOOR_CardReader">   
+    <meta attribute="extends">BaseObject</meta>
+        <id name="id" column="id" unsaved-value="null">
+            <generator class="identity"/>
+     </id>
+	  <property name="cardNo"   type="integer" not-null="true" />
+	  <many-to-one name="hub"		class="prj.door.control.value.Hub"	lazy="false" column="hub"	cascade="none"/>
+       <list name="enterauthority" cascade="none" table="DOOR_enterAuthority" >
+        	<meta attribute="widget">two-list</meta>
+        	<key column="cardReaderId" /> 
+        	<index column="idx" /> 
+        	<many-to-many class="com.base.value.Group" column="groupId" /> 
+ 		</list>	   
+   </class>
+   
+</hibernate-mapping>
